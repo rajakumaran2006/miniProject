@@ -1,0 +1,30 @@
+{
+  "num_episodes": 3,
+  "steps_per_episode": 5,
+  "final_epsilon": 0.05,
+  "mean_cumulative_reward": -30.75,
+  "mean_attack_mitigation_rate_pct": 66.67,
+  "mean_average_latency_ms": 94.51,
+  "mean_resource_usage_pct": 68.95,
+  "total_successful_attacks": 3,
+  "episode_rewards": [
+    3.65,
+    -77.05,
+    -18.85
+  ],
+  "mitigation_rates": [
+    75.0,
+    50.0,
+    75.0
+  ],
+  "avg_latencies": [
+    107.65,
+    88.89,
+    86.98
+  ],
+  "avg_cpu_usages": [
+    75.18,
+    74.67,
+    57.0
+  ]
+}

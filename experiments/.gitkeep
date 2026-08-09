@@ -1,0 +1,3 @@
+# Experiments Directory
+
+This directory stores experiment runs, trained RL model checkpoints (`.pth`, `.pkl`), and evaluation results.

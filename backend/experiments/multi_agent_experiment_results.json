@@ -1,0 +1,39 @@
+{
+  "experiment_seed": 42,
+  "eval_episodes": 50,
+  "strategies": {
+    "static_baseline": {
+      "strategy_name": "Static Baseline",
+      "detection_rate_pct": 43.55,
+      "response_time_steps": 2.69,
+      "latency_ms": 40.92,
+      "resource_consumption_cpu_pct": 51.78,
+      "attack_mitigation_rate_pct": 43.55,
+      "cumulative_reward": -440.53,
+      "successful_attacks_count": 699,
+      "total_attacks_simulated": 1244
+    },
+    "single_agent_rl": {
+      "strategy_name": "Single-Agent RL",
+      "detection_rate_pct": 0.0,
+      "response_time_steps": 4.0,
+      "latency_ms": 42.22,
+      "resource_consumption_cpu_pct": 52.17,
+      "attack_mitigation_rate_pct": 0.0,
+      "cumulative_reward": -1345.5,
+      "successful_attacks_count": 1495,
+      "total_attacks_simulated": 1495
+    },
+    "multi_agent_rl": {
+      "strategy_name": "Multi-Agent RL",
+      "detection_rate_pct": 100.0,
+      "response_time_steps": 1.0,
+      "latency_ms": 49.37,
+      "resource_consumption_cpu_pct": 67.83,
+      "attack_mitigation_rate_pct": 100.0,
+      "cumulative_reward": -345.16,
+      "successful_attacks_count": 0,
+      "total_attacks_simulated": 1033
+    }
+  }
+}

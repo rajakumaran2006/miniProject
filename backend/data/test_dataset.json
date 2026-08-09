@@ -1,0 +1,4802 @@
+[
+  {
+    "features": {
+      "packet_rate": 12044.8139,
+      "packet_size": 9005.9,
+      "latency": 18.5243,
+      "bandwidth_usage": 867.7953,
+      "packet_loss": 0.000666,
+      "connection_count": 3254.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.51,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12108.7817,
+      "packet_size": 8415.72,
+      "latency": 19.4215,
+      "bandwidth_usage": 815.2332,
+      "packet_loss": 0.000208,
+      "connection_count": 3427.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.94,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24215.6411,
+      "packet_size": 1050.59,
+      "latency": 0.7526,
+      "bandwidth_usage": 203.5255,
+      "packet_loss": 1.7e-05,
+      "connection_count": 856.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.4,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25645.3276,
+      "packet_size": 994.16,
+      "latency": 0.8799,
+      "bandwidth_usage": 203.9636,
+      "packet_loss": 1.4e-05,
+      "connection_count": 863.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.59,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12362.7289,
+      "packet_size": 8245.18,
+      "latency": 18.2028,
+      "bandwidth_usage": 815.4631,
+      "packet_loss": 0.000854,
+      "connection_count": 3303.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 26197.6276,
+      "packet_size": 989.25,
+      "latency": 0.8369,
+      "bandwidth_usage": 207.327,
+      "packet_loss": 1e-05,
+      "connection_count": 956.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.24,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 79404.7794,
+      "packet_size": 73.88,
+      "latency": 81.604,
+      "bandwidth_usage": 46.9344,
+      "packet_loss": 0.001348,
+      "connection_count": 49064.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.12,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 26158.2148,
+      "packet_size": 1009.17,
+      "latency": 0.8685,
+      "bandwidth_usage": 211.1857,
+      "packet_loss": 1.7e-05,
+      "connection_count": 820.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.94,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 79520.9936,
+      "packet_size": 61.57,
+      "latency": 88.6051,
+      "bandwidth_usage": 39.1698,
+      "packet_loss": 0.001314,
+      "connection_count": 52354.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 39.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 88867.1522,
+      "packet_size": 59.18,
+      "latency": 86.2879,
+      "bandwidth_usage": 42.0721,
+      "packet_loss": 0.005093,
+      "connection_count": 49944.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.66,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 88644.3641,
+      "packet_size": 61.02,
+      "latency": 72.9517,
+      "bandwidth_usage": 43.276,
+      "packet_loss": 0.004532,
+      "connection_count": 48452.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 45.37,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11175.4356,
+      "packet_size": 9798.23,
+      "latency": 20.0047,
+      "bandwidth_usage": 875.9961,
+      "packet_loss": 1.3e-05,
+      "connection_count": 3647.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.12,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24431.833,
+      "packet_size": 957.86,
+      "latency": 0.9157,
+      "bandwidth_usage": 187.2188,
+      "packet_loss": 1.9e-05,
+      "connection_count": 956.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.44,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 23348.0148,
+      "packet_size": 1105.71,
+      "latency": 0.8131,
+      "bandwidth_usage": 206.5287,
+      "packet_loss": 1.4e-05,
+      "connection_count": 970.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.42,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 92028.9563,
+      "packet_size": 59.19,
+      "latency": 86.4139,
+      "bandwidth_usage": 43.5783,
+      "packet_loss": 0.001121,
+      "connection_count": 49846.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 45.16,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 27101.7525,
+      "packet_size": 827.65,
+      "latency": 0.8747,
+      "bandwidth_usage": 179.447,
+      "packet_loss": 1e-05,
+      "connection_count": 860.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.27,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 91168.7956,
+      "packet_size": 59.81,
+      "latency": 90.9104,
+      "bandwidth_usage": 43.621,
+      "packet_loss": 0.002043,
+      "connection_count": 50982.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 45.74,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 24905.968,
+      "packet_size": 989.93,
+      "latency": 0.7804,
+      "bandwidth_usage": 197.2418,
+      "packet_loss": 1.1e-05,
+      "connection_count": 951.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 15.74,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 13068.0416,
+      "packet_size": 7549.37,
+      "latency": 18.1256,
+      "bandwidth_usage": 789.2437,
+      "packet_loss": 0.000539,
+      "connection_count": 3420.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.66,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 82136.2564,
+      "packet_size": 62.6,
+      "latency": 82.3121,
+      "bandwidth_usage": 41.134,
+      "packet_loss": 0.000957,
+      "connection_count": 49553.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.31,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11498.6208,
+      "packet_size": 9269.77,
+      "latency": 18.3021,
+      "bandwidth_usage": 852.717,
+      "packet_loss": 0.0007,
+      "connection_count": 3408.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.45,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12342.7897,
+      "packet_size": 7822.51,
+      "latency": 18.3863,
+      "bandwidth_usage": 772.4128,
+      "packet_loss": 0.000459,
+      "connection_count": 3283.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.48,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 83156.3412,
+      "packet_size": 64.17,
+      "latency": 83.4779,
+      "bandwidth_usage": 42.6886,
+      "packet_loss": 0.001666,
+      "connection_count": 55086.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.12,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25798.5878,
+      "packet_size": 916.04,
+      "latency": 0.8361,
+      "bandwidth_usage": 189.0594,
+      "packet_loss": 1.6e-05,
+      "connection_count": 881.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.38,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 77573.2523,
+      "packet_size": 74.9,
+      "latency": 92.1372,
+      "bandwidth_usage": 46.4796,
+      "packet_loss": 0.003429,
+      "connection_count": 55310.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.37,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 22902.8494,
+      "packet_size": 1158.01,
+      "latency": 0.8773,
+      "bandwidth_usage": 212.1733,
+      "packet_loss": 1.1e-05,
+      "connection_count": 905.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.64,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12962.8515,
+      "packet_size": 7860.72,
+      "latency": 20.9631,
+      "bandwidth_usage": 815.1791,
+      "packet_loss": 0.000294,
+      "connection_count": 3789.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.25,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23752.5769,
+      "packet_size": 1022.42,
+      "latency": 0.8941,
+      "bandwidth_usage": 194.2802,
+      "packet_loss": 2e-05,
+      "connection_count": 884.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.72,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 80920.6975,
+      "packet_size": 71.66,
+      "latency": 85.2007,
+      "bandwidth_usage": 46.392,
+      "packet_loss": 0.003599,
+      "connection_count": 52283.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.29,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 75138.3159,
+      "packet_size": 78.41,
+      "latency": 84.533,
+      "bandwidth_usage": 47.1301,
+      "packet_loss": 0.005535,
+      "connection_count": 52472.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12458.8629,
+      "packet_size": 8174.28,
+      "latency": 19.7106,
+      "bandwidth_usage": 814.7376,
+      "packet_loss": 0.000513,
+      "connection_count": 3441.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.26,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25181.8249,
+      "packet_size": 1042.7,
+      "latency": 0.8541,
+      "bandwidth_usage": 210.0577,
+      "packet_loss": 1.2e-05,
+      "connection_count": 857.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.32,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84755.5868,
+      "packet_size": 67.62,
+      "latency": 94.7982,
+      "bandwidth_usage": 45.8486,
+      "packet_loss": 0.003408,
+      "connection_count": 51558.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.17,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 76084.7139,
+      "packet_size": 70.98,
+      "latency": 82.3993,
+      "bandwidth_usage": 43.206,
+      "packet_loss": 0.001001,
+      "connection_count": 48664.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 40.29,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25843.9334,
+      "packet_size": 961.66,
+      "latency": 0.8218,
+      "bandwidth_usage": 198.8254,
+      "packet_loss": 1.6e-05,
+      "connection_count": 986.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.27,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11893.2211,
+      "packet_size": 8780.06,
+      "latency": 17.8861,
+      "bandwidth_usage": 835.3851,
+      "packet_loss": 0.000696,
+      "connection_count": 3582.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.01,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11414.7595,
+      "packet_size": 9326.52,
+      "latency": 19.0466,
+      "bandwidth_usage": 851.6796,
+      "packet_loss": 4.3e-05,
+      "connection_count": 3347.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24420.5758,
+      "packet_size": 988.79,
+      "latency": 0.8977,
+      "bandwidth_usage": 193.174,
+      "packet_loss": 1.4e-05,
+      "connection_count": 936.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.43,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 23641.9619,
+      "packet_size": 1077.2,
+      "latency": 0.892,
+      "bandwidth_usage": 203.7377,
+      "packet_loss": 1.5e-05,
+      "connection_count": 820.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.1,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 75029.9437,
+      "packet_size": 71.24,
+      "latency": 89.3611,
+      "bandwidth_usage": 42.7633,
+      "packet_loss": 0.005483,
+      "connection_count": 48492.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 41.3,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25448.8151,
+      "packet_size": 1070.57,
+      "latency": 0.8941,
+      "bandwidth_usage": 217.958,
+      "packet_loss": 1.6e-05,
+      "connection_count": 985.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.56,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84704.6357,
+      "packet_size": 66.49,
+      "latency": 82.2107,
+      "bandwidth_usage": 45.0538,
+      "packet_loss": 0.000443,
+      "connection_count": 48572.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.83,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 85683.7889,
+      "packet_size": 67.3,
+      "latency": 88.1788,
+      "bandwidth_usage": 46.1309,
+      "packet_loss": 0.005588,
+      "connection_count": 43581.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.5,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 26546.815,
+      "packet_size": 996.5,
+      "latency": 0.8618,
+      "bandwidth_usage": 211.631,
+      "packet_loss": 1.7e-05,
+      "connection_count": 912.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.72,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24493.9833,
+      "packet_size": 1009.57,
+      "latency": 0.8515,
+      "bandwidth_usage": 197.8273,
+      "packet_loss": 1.4e-05,
+      "connection_count": 886.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.64,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24016.4092,
+      "packet_size": 951.02,
+      "latency": 0.7916,
+      "bandwidth_usage": 182.7199,
+      "packet_loss": 1.4e-05,
+      "connection_count": 844.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.84,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 81673.2295,
+      "packet_size": 66.59,
+      "latency": 82.1423,
+      "bandwidth_usage": 43.5068,
+      "packet_loss": 0.001588,
+      "connection_count": 53272.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.06,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 23830.1514,
+      "packet_size": 1061.8,
+      "latency": 0.8266,
+      "bandwidth_usage": 202.4224,
+      "packet_loss": 1.1e-05,
+      "connection_count": 940.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.54,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25984.7912,
+      "packet_size": 946.44,
+      "latency": 0.8077,
+      "bandwidth_usage": 196.7452,
+      "packet_loss": 1.4e-05,
+      "connection_count": 960.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.71,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25548.1329,
+      "packet_size": 1033.62,
+      "latency": 0.8114,
+      "bandwidth_usage": 211.2573,
+      "packet_loss": 1.2e-05,
+      "connection_count": 828.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.56,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25254.1251,
+      "packet_size": 963.68,
+      "latency": 0.7765,
+      "bandwidth_usage": 194.6951,
+      "packet_loss": 1e-05,
+      "connection_count": 966.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.73,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 85109.2558,
+      "packet_size": 65.98,
+      "latency": 83.7875,
+      "bandwidth_usage": 44.9271,
+      "packet_loss": 0.003337,
+      "connection_count": 49394.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 22355.5498,
+      "packet_size": 1156.18,
+      "latency": 0.9057,
+      "bandwidth_usage": 206.7768,
+      "packet_loss": 1.6e-05,
+      "connection_count": 819.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.22,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24251.9737,
+      "packet_size": 1100.01,
+      "latency": 0.9049,
+      "bandwidth_usage": 213.4192,
+      "packet_loss": 1.2e-05,
+      "connection_count": 914.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.3,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 26292.1132,
+      "packet_size": 993.5,
+      "latency": 0.826,
+      "bandwidth_usage": 208.9688,
+      "packet_loss": 1.8e-05,
+      "connection_count": 819.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.0,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24453.8303,
+      "packet_size": 972.45,
+      "latency": 0.7749,
+      "bandwidth_usage": 190.2413,
+      "packet_loss": 1.8e-05,
+      "connection_count": 876.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.45,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 79521.8257,
+      "packet_size": 75.19,
+      "latency": 84.4136,
+      "bandwidth_usage": 47.8354,
+      "packet_loss": 0.005711,
+      "connection_count": 47519.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 40.83,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 23841.8465,
+      "packet_size": 1043.85,
+      "latency": 0.9056,
+      "bandwidth_usage": 199.0994,
+      "packet_loss": 1.2e-05,
+      "connection_count": 927.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.43,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 77373.468,
+      "packet_size": 67.7,
+      "latency": 86.7942,
+      "bandwidth_usage": 41.908,
+      "packet_loss": 0.004237,
+      "connection_count": 47079.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.68,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12735.1444,
+      "packet_size": 7482.5,
+      "latency": 16.8303,
+      "bandwidth_usage": 762.3256,
+      "packet_loss": 0.000974,
+      "connection_count": 3491.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.29,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11985.1275,
+      "packet_size": 8302.21,
+      "latency": 18.3786,
+      "bandwidth_usage": 796.0243,
+      "packet_loss": 7.6e-05,
+      "connection_count": 3626.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.61,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 26497.0656,
+      "packet_size": 899.03,
+      "latency": 0.8846,
+      "bandwidth_usage": 190.5727,
+      "packet_loss": 1.2e-05,
+      "connection_count": 908.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.31,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11689.1966,
+      "packet_size": 8955.12,
+      "latency": 17.7467,
+      "bandwidth_usage": 837.4253,
+      "packet_loss": 8.5e-05,
+      "connection_count": 3665.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.15,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 88704.9925,
+      "packet_size": 64.11,
+      "latency": 85.8196,
+      "bandwidth_usage": 45.4926,
+      "packet_loss": 0.00204,
+      "connection_count": 54896.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 48.28,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12913.3317,
+      "packet_size": 8275.09,
+      "latency": 18.1281,
+      "bandwidth_usage": 854.8716,
+      "packet_loss": 0.000329,
+      "connection_count": 3466.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.65,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24564.6377,
+      "packet_size": 1078.67,
+      "latency": 0.8858,
+      "bandwidth_usage": 211.978,
+      "packet_loss": 1.5e-05,
+      "connection_count": 829.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.89,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12877.1988,
+      "packet_size": 7386.0,
+      "latency": 19.0745,
+      "bandwidth_usage": 760.8875,
+      "packet_loss": 0.000615,
+      "connection_count": 3477.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.25,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11562.7721,
+      "packet_size": 8907.66,
+      "latency": 19.3123,
+      "bandwidth_usage": 823.9776,
+      "packet_loss": 0.000212,
+      "connection_count": 3457.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.97,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25172.7343,
+      "packet_size": 972.56,
+      "latency": 0.8115,
+      "bandwidth_usage": 195.8566,
+      "packet_loss": 1.6e-05,
+      "connection_count": 945.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 87800.5309,
+      "packet_size": 60.05,
+      "latency": 86.133,
+      "bandwidth_usage": 42.181,
+      "packet_loss": 0.000583,
+      "connection_count": 51846.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.01,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11823.268,
+      "packet_size": 9292.12,
+      "latency": 18.3164,
+      "bandwidth_usage": 878.9055,
+      "packet_loss": 0.000153,
+      "connection_count": 3349.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.93,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 86854.7581,
+      "packet_size": 65.47,
+      "latency": 88.5524,
+      "bandwidth_usage": 45.4925,
+      "packet_loss": 0.003476,
+      "connection_count": 51701.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.3,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12050.9455,
+      "packet_size": 8390.0,
+      "latency": 18.0111,
+      "bandwidth_usage": 808.8595,
+      "packet_loss": 0.000725,
+      "connection_count": 3705.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 29.82,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 81571.2467,
+      "packet_size": 65.47,
+      "latency": 79.8474,
+      "bandwidth_usage": 42.7235,
+      "packet_loss": 0.000576,
+      "connection_count": 52739.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.25,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 27131.8945,
+      "packet_size": 900.47,
+      "latency": 0.8058,
+      "bandwidth_usage": 195.4526,
+      "packet_loss": 1.9e-05,
+      "connection_count": 897.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.92,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 81633.8897,
+      "packet_size": 65.48,
+      "latency": 81.7821,
+      "bandwidth_usage": 42.7653,
+      "packet_loss": 0.00212,
+      "connection_count": 49776.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 40.71,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12232.1114,
+      "packet_size": 8633.4,
+      "latency": 18.464,
+      "bandwidth_usage": 844.8379,
+      "packet_loss": 0.000295,
+      "connection_count": 3692.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 29.39,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 80804.9319,
+      "packet_size": 69.73,
+      "latency": 70.8144,
+      "bandwidth_usage": 45.0735,
+      "packet_loss": 0.002891,
+      "connection_count": 53587.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 41.17,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 26375.5275,
+      "packet_size": 960.0,
+      "latency": 0.8964,
+      "bandwidth_usage": 202.5635,
+      "packet_loss": 1.7e-05,
+      "connection_count": 911.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.04,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 85121.8554,
+      "packet_size": 72.26,
+      "latency": 83.1703,
+      "bandwidth_usage": 49.2073,
+      "packet_loss": 0.000831,
+      "connection_count": 51468.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 49.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25518.7306,
+      "packet_size": 1064.66,
+      "latency": 0.8594,
+      "bandwidth_usage": 217.3509,
+      "packet_loss": 1.4e-05,
+      "connection_count": 840.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.8,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 75127.1034,
+      "packet_size": 76.22,
+      "latency": 83.0738,
+      "bandwidth_usage": 45.8103,
+      "packet_loss": 0.004577,
+      "connection_count": 52444.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.92,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12041.4826,
+      "packet_size": 9196.21,
+      "latency": 17.7594,
+      "bandwidth_usage": 885.888,
+      "packet_loss": 0.000449,
+      "connection_count": 3475.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.85,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12216.6033,
+      "packet_size": 9045.63,
+      "latency": 20.73,
+      "bandwidth_usage": 884.0548,
+      "packet_loss": 0.000714,
+      "connection_count": 3598.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 34.54,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11888.481,
+      "packet_size": 9497.45,
+      "latency": 19.8601,
+      "bandwidth_usage": 903.2819,
+      "packet_loss": 0.000427,
+      "connection_count": 3556.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.14,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 82834.4479,
+      "packet_size": 64.93,
+      "latency": 84.1646,
+      "bandwidth_usage": 43.0246,
+      "packet_loss": 0.001903,
+      "connection_count": 45711.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.1,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 27074.0157,
+      "packet_size": 896.44,
+      "latency": 0.876,
+      "bandwidth_usage": 194.1616,
+      "packet_loss": 1.8e-05,
+      "connection_count": 820.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 20.06,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 77280.8546,
+      "packet_size": 70.2,
+      "latency": 87.7369,
+      "bandwidth_usage": 43.4008,
+      "packet_loss": 0.005356,
+      "connection_count": 45573.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 40.92,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 79705.7927,
+      "packet_size": 70.82,
+      "latency": 93.0964,
+      "bandwidth_usage": 45.1594,
+      "packet_loss": 0.003774,
+      "connection_count": 49156.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.39,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 22877.8807,
+      "packet_size": 1021.64,
+      "latency": 0.8954,
+      "bandwidth_usage": 186.9845,
+      "packet_loss": 1.1e-05,
+      "connection_count": 1000.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 14.98,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 26100.9334,
+      "packet_size": 962.64,
+      "latency": 0.8646,
+      "bandwidth_usage": 201.0064,
+      "packet_loss": 1.5e-05,
+      "connection_count": 829.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.92,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 85624.6596,
+      "packet_size": 61.89,
+      "latency": 84.2505,
+      "bandwidth_usage": 42.3952,
+      "packet_loss": 0.00469,
+      "connection_count": 48399.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.46,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12660.3365,
+      "packet_size": 8673.9,
+      "latency": 19.1593,
+      "bandwidth_usage": 878.5162,
+      "packet_loss": 0.000344,
+      "connection_count": 3575.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.56,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25749.9244,
+      "packet_size": 925.48,
+      "latency": 0.796,
+      "bandwidth_usage": 190.6476,
+      "packet_loss": 1.8e-05,
+      "connection_count": 878.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.2,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83671.0356,
+      "packet_size": 58.68,
+      "latency": 76.8664,
+      "bandwidth_usage": 39.2772,
+      "packet_loss": 0.005755,
+      "connection_count": 46391.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.02,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12145.6752,
+      "packet_size": 8142.72,
+      "latency": 18.6184,
+      "bandwidth_usage": 791.191,
+      "packet_loss": 0.000449,
+      "connection_count": 3754.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 29.77,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 13298.7068,
+      "packet_size": 7470.05,
+      "latency": 17.5415,
+      "bandwidth_usage": 794.7361,
+      "packet_loss": 0.000499,
+      "connection_count": 3441.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.84,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24597.2901,
+      "packet_size": 1029.94,
+      "latency": 0.8433,
+      "bandwidth_usage": 202.6693,
+      "packet_loss": 1.1e-05,
+      "connection_count": 898.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.77,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24472.9065,
+      "packet_size": 1039.25,
+      "latency": 0.8127,
+      "bandwidth_usage": 203.4671,
+      "packet_loss": 1.8e-05,
+      "connection_count": 825.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.08,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 23613.876,
+      "packet_size": 1136.72,
+      "latency": 0.8259,
+      "bandwidth_usage": 214.7395,
+      "packet_loss": 1.1e-05,
+      "connection_count": 867.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.23,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 81743.5077,
+      "packet_size": 70.86,
+      "latency": 87.3909,
+      "bandwidth_usage": 46.3409,
+      "packet_loss": 0.005976,
+      "connection_count": 49133.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 47.74,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11856.3862,
+      "packet_size": 9148.12,
+      "latency": 18.0482,
+      "bandwidth_usage": 867.7093,
+      "packet_loss": 0.000922,
+      "connection_count": 3680.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.8,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25848.3947,
+      "packet_size": 989.28,
+      "latency": 0.9266,
+      "bandwidth_usage": 204.5714,
+      "packet_loss": 1.2e-05,
+      "connection_count": 865.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.35,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11363.6374,
+      "packet_size": 9747.73,
+      "latency": 19.8262,
+      "bandwidth_usage": 886.1572,
+      "packet_loss": 0.000836,
+      "connection_count": 3345.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.71,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12186.6816,
+      "packet_size": 8355.18,
+      "latency": 19.6086,
+      "bandwidth_usage": 814.5758,
+      "packet_loss": 0.000599,
+      "connection_count": 3347.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 76663.2873,
+      "packet_size": 69.37,
+      "latency": 90.7051,
+      "bandwidth_usage": 42.5424,
+      "packet_loss": 0.001421,
+      "connection_count": 50394.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.65,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12563.3304,
+      "packet_size": 8021.61,
+      "latency": 18.6877,
+      "bandwidth_usage": 806.2251,
+      "packet_loss": 0.000487,
+      "connection_count": 3278.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.62,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11425.7554,
+      "packet_size": 9645.88,
+      "latency": 18.3457,
+      "bandwidth_usage": 881.6916,
+      "packet_loss": 0.000705,
+      "connection_count": 3352.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.38,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 85565.4606,
+      "packet_size": 68.21,
+      "latency": 91.383,
+      "bandwidth_usage": 46.6919,
+      "packet_loss": 0.003963,
+      "connection_count": 53892.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.85,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 24198.6049,
+      "packet_size": 953.17,
+      "latency": 0.8852,
+      "bandwidth_usage": 184.5226,
+      "packet_loss": 1.1e-05,
+      "connection_count": 835.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.89,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 82383.5957,
+      "packet_size": 66.66,
+      "latency": 84.235,
+      "bandwidth_usage": 43.9342,
+      "packet_loss": 0.004599,
+      "connection_count": 47822.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 47.49,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 24997.0877,
+      "packet_size": 1000.94,
+      "latency": 0.8657,
+      "bandwidth_usage": 200.1651,
+      "packet_loss": 1.7e-05,
+      "connection_count": 857.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.49,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 80882.8638,
+      "packet_size": 70.88,
+      "latency": 85.0582,
+      "bandwidth_usage": 45.8606,
+      "packet_loss": 0.003114,
+      "connection_count": 48440.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.89,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11826.4454,
+      "packet_size": 8805.79,
+      "latency": 17.6658,
+      "bandwidth_usage": 833.1299,
+      "packet_loss": 0.000776,
+      "connection_count": 3644.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.75,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11823.5558,
+      "packet_size": 9029.66,
+      "latency": 19.3021,
+      "bandwidth_usage": 854.1013,
+      "packet_loss": 0.000269,
+      "connection_count": 3354.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 31.14,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 90568.8707,
+      "packet_size": 64.26,
+      "latency": 84.746,
+      "bandwidth_usage": 46.5619,
+      "packet_loss": 0.003522,
+      "connection_count": 53870.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 48.27,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 79829.4849,
+      "packet_size": 67.73,
+      "latency": 84.1679,
+      "bandwidth_usage": 43.2545,
+      "packet_loss": 0.003878,
+      "connection_count": 48704.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25593.9142,
+      "packet_size": 1007.81,
+      "latency": 0.9341,
+      "bandwidth_usage": 206.351,
+      "packet_loss": 2e-05,
+      "connection_count": 941.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.63,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84387.4817,
+      "packet_size": 66.74,
+      "latency": 84.9882,
+      "bandwidth_usage": 45.0584,
+      "packet_loss": 0.003337,
+      "connection_count": 54095.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.79,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 90787.6595,
+      "packet_size": 66.45,
+      "latency": 83.3842,
+      "bandwidth_usage": 48.2621,
+      "packet_loss": 0.004901,
+      "connection_count": 49986.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 48.71,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11847.1002,
+      "packet_size": 8978.45,
+      "latency": 19.7567,
+      "bandwidth_usage": 850.9484,
+      "packet_loss": 0.000247,
+      "connection_count": 3372.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.02,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12122.2629,
+      "packet_size": 8909.22,
+      "latency": 19.3037,
+      "bandwidth_usage": 863.999,
+      "packet_loss": 0.000605,
+      "connection_count": 3607.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 34.51,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 91281.0192,
+      "packet_size": 59.25,
+      "latency": 85.0847,
+      "bandwidth_usage": 43.2669,
+      "packet_loss": 0.002197,
+      "connection_count": 50784.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.81,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 10869.2502,
+      "packet_size": 9732.11,
+      "latency": 18.8304,
+      "bandwidth_usage": 846.2461,
+      "packet_loss": 2.1e-05,
+      "connection_count": 3486.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 29.88,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11687.2262,
+      "packet_size": 9822.34,
+      "latency": 19.3341,
+      "bandwidth_usage": 918.3677,
+      "packet_loss": 0.000117,
+      "connection_count": 3608.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.86,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 22736.758,
+      "packet_size": 1196.59,
+      "latency": 0.8737,
+      "bandwidth_usage": 217.6531,
+      "packet_loss": 1.6e-05,
+      "connection_count": 931.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.82,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11901.1445,
+      "packet_size": 9017.39,
+      "latency": 19.6496,
+      "bandwidth_usage": 858.5381,
+      "packet_loss": 0.000758,
+      "connection_count": 3600.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.27,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24114.536,
+      "packet_size": 993.75,
+      "latency": 0.8221,
+      "bandwidth_usage": 191.7098,
+      "packet_loss": 1.3e-05,
+      "connection_count": 872.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.42,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11010.4374,
+      "packet_size": 9586.74,
+      "latency": 19.4471,
+      "bandwidth_usage": 844.4337,
+      "packet_loss": 0.000105,
+      "connection_count": 3113.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 30.06,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 82249.2854,
+      "packet_size": 66.06,
+      "latency": 90.936,
+      "bandwidth_usage": 43.4639,
+      "packet_loss": 0.000936,
+      "connection_count": 47913.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.29,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 88962.0302,
+      "packet_size": 64.79,
+      "latency": 86.2566,
+      "bandwidth_usage": 46.1084,
+      "packet_loss": 0.001107,
+      "connection_count": 48543.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 46.63,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12363.7865,
+      "packet_size": 8752.74,
+      "latency": 18.3438,
+      "bandwidth_usage": 865.7357,
+      "packet_loss": 0.000703,
+      "connection_count": 3532.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.61,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24279.2494,
+      "packet_size": 1007.24,
+      "latency": 0.8158,
+      "bandwidth_usage": 195.6406,
+      "packet_loss": 1.4e-05,
+      "connection_count": 814.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.84,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84467.8078,
+      "packet_size": 69.06,
+      "latency": 83.0614,
+      "bandwidth_usage": 46.6693,
+      "packet_loss": 0.00091,
+      "connection_count": 53314.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 26834.5712,
+      "packet_size": 884.96,
+      "latency": 0.8695,
+      "bandwidth_usage": 189.9797,
+      "packet_loss": 2e-05,
+      "connection_count": 936.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.35,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 27212.5061,
+      "packet_size": 816.89,
+      "latency": 0.8208,
+      "bandwidth_usage": 177.836,
+      "packet_loss": 2e-05,
+      "connection_count": 961.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.52,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 79893.5631,
+      "packet_size": 71.87,
+      "latency": 79.9129,
+      "bandwidth_usage": 45.936,
+      "packet_loss": 0.003902,
+      "connection_count": 48834.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 13215.8304,
+      "packet_size": 8257.32,
+      "latency": 19.0942,
+      "bandwidth_usage": 873.0186,
+      "packet_loss": 0.000401,
+      "connection_count": 3813.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 33.54,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 26224.544,
+      "packet_size": 998.65,
+      "latency": 0.7641,
+      "bandwidth_usage": 209.513,
+      "packet_loss": 1.2e-05,
+      "connection_count": 870.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 19.52,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24894.5376,
+      "packet_size": 895.81,
+      "latency": 0.8344,
+      "bandwidth_usage": 178.4072,
+      "packet_loss": 1.1e-05,
+      "connection_count": 949.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.84,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24660.364,
+      "packet_size": 926.36,
+      "latency": 0.913,
+      "bandwidth_usage": 182.7551,
+      "packet_loss": 1.2e-05,
+      "connection_count": 882.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 13438.5329,
+      "packet_size": 8002.38,
+      "latency": 18.9506,
+      "bandwidth_usage": 860.3221,
+      "packet_loss": 0.000582,
+      "connection_count": 3609.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 34.09,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 27149.9731,
+      "packet_size": 920.98,
+      "latency": 0.8176,
+      "bandwidth_usage": 200.0369,
+      "packet_loss": 1.3e-05,
+      "connection_count": 869.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 17.83,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24199.2994,
+      "packet_size": 1015.91,
+      "latency": 0.8343,
+      "bandwidth_usage": 196.6737,
+      "packet_loss": 1.6e-05,
+      "connection_count": 866.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 18.15,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83892.1788,
+      "packet_size": 68.7,
+      "latency": 86.909,
+      "bandwidth_usage": 46.1039,
+      "packet_loss": 0.005231,
+      "connection_count": 48964.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 50.92,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 89795.9164,
+      "packet_size": 64.93,
+      "latency": 81.1889,
+      "bandwidth_usage": 46.6439,
+      "packet_loss": 0.003991,
+      "connection_count": 50608.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 45.6,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12322.0632,
+      "packet_size": 8435.62,
+      "latency": 18.9821,
+      "bandwidth_usage": 831.5544,
+      "packet_loss": 0.000863,
+      "connection_count": 3576.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 32.26,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 80146.9555,
+      "packet_size": 70.69,
+      "latency": 88.17,
+      "bandwidth_usage": 45.326,
+      "packet_loss": 0.004212,
+      "connection_count": 51655.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.0,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12168.5909,
+      "packet_size": 8884.99,
+      "latency": 16.9252,
+      "bandwidth_usage": 864.9424,
+      "packet_loss": 0.000686,
+      "connection_count": 3476.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 34.8,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23425.3261,
+      "packet_size": 1046.86,
+      "latency": 0.8611,
+      "bandwidth_usage": 196.1839,
+      "packet_loss": 1.7e-05,
+      "connection_count": 894.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 16.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 0,
+    "threat_type": "NORMAL",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 307273.53,
+      "packet_size": 52.66,
+      "latency": 124.43,
+      "bandwidth_usage": 129.46,
+      "packet_loss": 0.1222,
+      "connection_count": 93544.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 85.44,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 62454.49,
+      "packet_size": 7294.03,
+      "latency": 85.46,
+      "bandwidth_usage": 3644.36,
+      "packet_loss": 0.181,
+      "connection_count": 10224.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 91.0,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 87359.78,
+      "packet_size": 775.77,
+      "latency": 45.87,
+      "bandwidth_usage": 542.17,
+      "packet_loss": 0.12,
+      "connection_count": 1612.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 57.91,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 62201.19,
+      "packet_size": 7347.99,
+      "latency": 85.61,
+      "bandwidth_usage": 3656.43,
+      "packet_loss": 0.1808,
+      "connection_count": 9936.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 93.25,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 64809.94,
+      "packet_size": 7183.14,
+      "latency": 86.38,
+      "bandwidth_usage": 3724.31,
+      "packet_loss": 0.1801,
+      "connection_count": 9342.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 92.63,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 172116.42,
+      "packet_size": 906.81,
+      "latency": 99.86,
+      "bandwidth_usage": 1248.62,
+      "packet_loss": 0.264,
+      "connection_count": 3686.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 642131.51,
+      "packet_size": 53.58,
+      "latency": 179.5,
+      "bandwidth_usage": 275.25,
+      "packet_loss": 0.2674,
+      "connection_count": 208252.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 65654.08,
+      "packet_size": 7068.41,
+      "latency": 87.2,
+      "bandwidth_usage": 3712.56,
+      "packet_loss": 0.1806,
+      "connection_count": 9639.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 93.79,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 133886.18,
+      "packet_size": 729.04,
+      "latency": 68.36,
+      "bandwidth_usage": 780.87,
+      "packet_loss": 0.18,
+      "connection_count": 2322.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 77.66,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83595.28,
+      "packet_size": 8498.55,
+      "latency": 115.77,
+      "bandwidth_usage": 5683.51,
+      "packet_loss": 0.2645,
+      "connection_count": 14002.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 185363.29,
+      "packet_size": 817.17,
+      "latency": 99.78,
+      "bandwidth_usage": 1211.78,
+      "packet_loss": 0.264,
+      "connection_count": 3785.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 203935.23,
+      "packet_size": 727.49,
+      "latency": 99.91,
+      "bandwidth_usage": 1186.89,
+      "packet_loss": 0.264,
+      "connection_count": 3314.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 289705.6,
+      "packet_size": 51.69,
+      "latency": 134.32,
+      "bandwidth_usage": 119.81,
+      "packet_loss": 0.1233,
+      "connection_count": 92458.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 84.74,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 655933.86,
+      "packet_size": 53.41,
+      "latency": 185.26,
+      "bandwidth_usage": 280.28,
+      "packet_loss": 0.2686,
+      "connection_count": 198063.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 130911.31,
+      "packet_size": 743.92,
+      "latency": 68.3,
+      "bandwidth_usage": 779.1,
+      "packet_loss": 0.18,
+      "connection_count": 2451.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 76.86,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 58517.34,
+      "packet_size": 7583.22,
+      "latency": 85.24,
+      "bandwidth_usage": 3550.0,
+      "packet_loss": 0.1803,
+      "connection_count": 10022.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 91.24,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 176774.41,
+      "packet_size": 847.81,
+      "latency": 99.84,
+      "bandwidth_usage": 1198.97,
+      "packet_loss": 0.264,
+      "connection_count": 3686.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 695166.98,
+      "packet_size": 51.14,
+      "latency": 183.94,
+      "bandwidth_usage": 284.4,
+      "packet_loss": 0.2654,
+      "connection_count": 182698.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 697035.28,
+      "packet_size": 42.55,
+      "latency": 175.63,
+      "bandwidth_usage": 237.26,
+      "packet_loss": 0.2688,
+      "connection_count": 187011.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 58791.74,
+      "packet_size": 8313.46,
+      "latency": 85.81,
+      "bandwidth_usage": 3910.1,
+      "packet_loss": 0.1801,
+      "connection_count": 9004.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 90.3,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 92988.26,
+      "packet_size": 6913.12,
+      "latency": 117.82,
+      "bandwidth_usage": 5142.71,
+      "packet_loss": 0.2643,
+      "connection_count": 14307.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 188613.89,
+      "packet_size": 809.56,
+      "latency": 99.81,
+      "bandwidth_usage": 1221.56,
+      "packet_loss": 0.264,
+      "connection_count": 3235.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 639883.52,
+      "packet_size": 52.48,
+      "latency": 190.65,
+      "bandwidth_usage": 268.64,
+      "packet_loss": 0.2661,
+      "connection_count": 192341.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 42390.14,
+      "packet_size": 6456.45,
+      "latency": 62.86,
+      "bandwidth_usage": 2189.52,
+      "packet_loss": 0.12,
+      "connection_count": 6282.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 66.34,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 684108.9,
+      "packet_size": 49.31,
+      "latency": 190.92,
+      "bandwidth_usage": 269.86,
+      "packet_loss": 0.2692,
+      "connection_count": 200621.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 213289.99,
+      "packet_size": 674.63,
+      "latency": 99.85,
+      "bandwidth_usage": 1151.13,
+      "packet_loss": 0.264,
+      "connection_count": 3278.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 87429.85,
+      "packet_size": 7044.66,
+      "latency": 118.75,
+      "bandwidth_usage": 4927.31,
+      "packet_loss": 0.2646,
+      "connection_count": 14141.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 645733.44,
+      "packet_size": 55.06,
+      "latency": 183.53,
+      "bandwidth_usage": 284.43,
+      "packet_loss": 0.2672,
+      "connection_count": 191553.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 87140.61,
+      "packet_size": 7452.27,
+      "latency": 118.98,
+      "bandwidth_usage": 5195.16,
+      "packet_loss": 0.2645,
+      "connection_count": 14592.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 87811.96,
+      "packet_size": 852.43,
+      "latency": 45.79,
+      "bandwidth_usage": 598.83,
+      "packet_loss": 0.12,
+      "connection_count": 1654.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 62.03,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 297888.32,
+      "packet_size": 59.84,
+      "latency": 126.53,
+      "bandwidth_usage": 142.61,
+      "packet_loss": 0.1254,
+      "connection_count": 78924.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 90.43,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 86699.16,
+      "packet_size": 813.75,
+      "latency": 45.91,
+      "bandwidth_usage": 564.41,
+      "packet_loss": 0.12,
+      "connection_count": 1627.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 59.16,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83743.27,
+      "packet_size": 864.04,
+      "latency": 45.76,
+      "bandwidth_usage": 578.86,
+      "packet_loss": 0.12,
+      "connection_count": 1508.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 58.68,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 68874.34,
+      "packet_size": 6560.14,
+      "latency": 86.55,
+      "bandwidth_usage": 3614.6,
+      "packet_loss": 0.18,
+      "connection_count": 9077.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 96.31,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 320705.48,
+      "packet_size": 43.87,
+      "latency": 130.0,
+      "bandwidth_usage": 112.56,
+      "packet_loss": 0.1232,
+      "connection_count": 84632.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 89.06,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 313923.93,
+      "packet_size": 54.54,
+      "latency": 133.77,
+      "bandwidth_usage": 136.98,
+      "packet_loss": 0.1232,
+      "connection_count": 89013.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 89.36,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 676743.29,
+      "packet_size": 49.3,
+      "latency": 188.71,
+      "bandwidth_usage": 266.91,
+      "packet_loss": 0.2677,
+      "connection_count": 222959.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 191715.69,
+      "packet_size": 752.59,
+      "latency": 99.85,
+      "bandwidth_usage": 1154.26,
+      "packet_loss": 0.264,
+      "connection_count": 3738.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 63781.71,
+      "packet_size": 7345.13,
+      "latency": 85.25,
+      "bandwidth_usage": 3747.88,
+      "packet_loss": 0.1801,
+      "connection_count": 9671.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 92.12,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 85112.61,
+      "packet_size": 848.27,
+      "latency": 45.86,
+      "bandwidth_usage": 577.59,
+      "packet_loss": 0.12,
+      "connection_count": 1746.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 58.04,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 39733.72,
+      "packet_size": 7406.49,
+      "latency": 60.64,
+      "bandwidth_usage": 2354.3,
+      "packet_loss": 0.1208,
+      "connection_count": 6154.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.96,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 87375.97,
+      "packet_size": 812.14,
+      "latency": 45.87,
+      "bandwidth_usage": 567.69,
+      "packet_loss": 0.12,
+      "connection_count": 1629.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 58.41,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 462076.63,
+      "packet_size": 50.44,
+      "latency": 146.93,
+      "bandwidth_usage": 186.47,
+      "packet_loss": 0.1859,
+      "connection_count": 128822.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 133519.5,
+      "packet_size": 744.53,
+      "latency": 68.35,
+      "bandwidth_usage": 795.27,
+      "packet_loss": 0.18,
+      "connection_count": 2570.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 79.36,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 450592.78,
+      "packet_size": 49.04,
+      "latency": 145.26,
+      "bandwidth_usage": 176.79,
+      "packet_loss": 0.1808,
+      "connection_count": 124326.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 38027.12,
+      "packet_size": 7684.61,
+      "latency": 64.35,
+      "bandwidth_usage": 2337.79,
+      "packet_loss": 0.1207,
+      "connection_count": 6580.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 70.2,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 95983.46,
+      "packet_size": 6705.93,
+      "latency": 116.27,
+      "bandwidth_usage": 5149.27,
+      "packet_loss": 0.2647,
+      "connection_count": 13266.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 464979.85,
+      "packet_size": 45.75,
+      "latency": 155.11,
+      "bandwidth_usage": 170.18,
+      "packet_loss": 0.1835,
+      "connection_count": 124702.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 196758.84,
+      "packet_size": 805.25,
+      "latency": 99.82,
+      "bandwidth_usage": 1267.52,
+      "packet_loss": 0.264,
+      "connection_count": 3643.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 99.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 91941.91,
+      "packet_size": 783.67,
+      "latency": 45.85,
+      "bandwidth_usage": 576.42,
+      "packet_loss": 0.12,
+      "connection_count": 1544.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 59.5,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Denial-of-Service",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24272.7158,
+      "packet_size": 1047.01,
+      "latency": 0.8756,
+      "bandwidth_usage": 203.3111,
+      "packet_loss": 1.2e-05,
+      "connection_count": 900.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 19.14,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83320.4008,
+      "packet_size": 64.96,
+      "latency": 82.7547,
+      "bandwidth_usage": 43.3015,
+      "packet_loss": 0.003258,
+      "connection_count": 45256.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 42.51,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12200.6334,
+      "packet_size": 8265.18,
+      "latency": 17.5313,
+      "bandwidth_usage": 806.7232,
+      "packet_loss": 0.000396,
+      "connection_count": 3504.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 32.71,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11583.756,
+      "packet_size": 9043.63,
+      "latency": 19.1654,
+      "bandwidth_usage": 838.0733,
+      "packet_loss": 0.00062,
+      "connection_count": 2979.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 32.04,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 22747.652,
+      "packet_size": 1126.95,
+      "latency": 0.8562,
+      "bandwidth_usage": 205.0839,
+      "packet_loss": 1.6e-05,
+      "connection_count": 862.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 16.43,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 91923.1551,
+      "packet_size": 61.17,
+      "latency": 83.9576,
+      "bandwidth_usage": 44.9815,
+      "packet_loss": 0.005894,
+      "connection_count": 51311.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 46.53,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 22298.9375,
+      "packet_size": 1134.62,
+      "latency": 0.9371,
+      "bandwidth_usage": 202.4063,
+      "packet_loss": 1.8e-05,
+      "connection_count": 937.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 16.84,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84430.6629,
+      "packet_size": 65.09,
+      "latency": 90.0547,
+      "bandwidth_usage": 43.9637,
+      "packet_loss": 0.005165,
+      "connection_count": 51460.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 45.82,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11813.6878,
+      "packet_size": 9097.27,
+      "latency": 18.9367,
+      "bandwidth_usage": 859.7785,
+      "packet_loss": 0.000297,
+      "connection_count": 3536.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 33.99,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11807.423,
+      "packet_size": 8583.84,
+      "latency": 18.7252,
+      "bandwidth_usage": 810.8238,
+      "packet_loss": 0.000792,
+      "connection_count": 3599.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 30.47,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 84167.2478,
+      "packet_size": 65.51,
+      "latency": 81.5967,
+      "bandwidth_usage": 44.1074,
+      "packet_loss": 0.003732,
+      "connection_count": 47439.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 48.2,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12690.0218,
+      "packet_size": 8234.86,
+      "latency": 17.5001,
+      "bandwidth_usage": 836.0041,
+      "packet_loss": 0.000706,
+      "connection_count": 3489.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 33.56,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23821.7743,
+      "packet_size": 1039.4,
+      "latency": 0.886,
+      "bandwidth_usage": 198.0835,
+      "packet_loss": 1.3e-05,
+      "connection_count": 807.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 18.14,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 88094.8021,
+      "packet_size": 69.02,
+      "latency": 84.1425,
+      "bandwidth_usage": 48.645,
+      "packet_loss": 0.005439,
+      "connection_count": 49410.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 49.24,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11561.2661,
+      "packet_size": 8691.68,
+      "latency": 18.6691,
+      "bandwidth_usage": 803.8948,
+      "packet_loss": 0.000574,
+      "connection_count": 3730.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 31.37,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11897.3851,
+      "packet_size": 8960.73,
+      "latency": 18.4692,
+      "bandwidth_usage": 852.8742,
+      "packet_loss": 0.000554,
+      "connection_count": 3735.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 33.26,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 12066.4452,
+      "packet_size": 8427.99,
+      "latency": 19.5208,
+      "bandwidth_usage": 813.5673,
+      "packet_loss": 0.000894,
+      "connection_count": 3543.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 31.77,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 22600.0685,
+      "packet_size": 1125.63,
+      "latency": 0.831,
+      "bandwidth_usage": 203.5154,
+      "packet_loss": 1.3e-05,
+      "connection_count": 914.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 14.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 22936.6368,
+      "packet_size": 1109.56,
+      "latency": 0.8412,
+      "bandwidth_usage": 203.5965,
+      "packet_loss": 1.1e-05,
+      "connection_count": 858.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 18.22,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 89155.9784,
+      "packet_size": 61.42,
+      "latency": 88.6203,
+      "bandwidth_usage": 43.8047,
+      "packet_loss": 0.002751,
+      "connection_count": 48397.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 49.78,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 83593.3641,
+      "packet_size": 69.09,
+      "latency": 87.037,
+      "bandwidth_usage": 46.2039,
+      "packet_loss": 0.004427,
+      "connection_count": 49127.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 45.12,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 92279.7323,
+      "packet_size": 64.46,
+      "latency": 83.5607,
+      "bandwidth_usage": 47.5838,
+      "packet_loss": 0.005176,
+      "connection_count": 48145.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 49.83,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 23265.552,
+      "packet_size": 1113.81,
+      "latency": 0.9217,
+      "bandwidth_usage": 207.3078,
+      "packet_loss": 1.9e-05,
+      "connection_count": 937.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 17.57,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12067.6909,
+      "packet_size": 8860.55,
+      "latency": 18.6778,
+      "bandwidth_usage": 855.4106,
+      "packet_loss": 9.2e-05,
+      "connection_count": 3485.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 36.95,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 85193.1617,
+      "packet_size": 73.78,
+      "latency": 78.3721,
+      "bandwidth_usage": 50.2848,
+      "packet_loss": 0.002082,
+      "connection_count": 51211.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 41.04,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11439.0986,
+      "packet_size": 9966.2,
+      "latency": 17.7615,
+      "bandwidth_usage": 912.0346,
+      "packet_loss": 0.000636,
+      "connection_count": 3568.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 32.78,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 22129.1884,
+      "packet_size": 1056.13,
+      "latency": 0.8404,
+      "bandwidth_usage": 186.9711,
+      "packet_loss": 1.5e-05,
+      "connection_count": 845.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 17.47,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12514.0637,
+      "packet_size": 9042.38,
+      "latency": 18.6591,
+      "bandwidth_usage": 905.2552,
+      "packet_loss": 0.000343,
+      "connection_count": 3488.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 34.44,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11358.911,
+      "packet_size": 9646.61,
+      "latency": 16.5018,
+      "bandwidth_usage": 876.6001,
+      "packet_loss": 0.000878,
+      "connection_count": 3653.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 33.55,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 81226.783,
+      "packet_size": 68.43,
+      "latency": 88.4169,
+      "bandwidth_usage": 44.4648,
+      "packet_loss": 0.001065,
+      "connection_count": 52459.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 43.87,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 94735.7436,
+      "packet_size": 56.94,
+      "latency": 88.9185,
+      "bandwidth_usage": 43.1541,
+      "packet_loss": 0.004103,
+      "connection_count": 48402.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 47.45,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12477.8956,
+      "packet_size": 8384.71,
+      "latency": 16.8539,
+      "bandwidth_usage": 836.9878,
+      "packet_loss": 0.000337,
+      "connection_count": 3317.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 31.81,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23531.3793,
+      "packet_size": 1047.97,
+      "latency": 0.8196,
+      "bandwidth_usage": 197.2805,
+      "packet_loss": 1e-05,
+      "connection_count": 865.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 16.98,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25700.7491,
+      "packet_size": 963.01,
+      "latency": 0.9289,
+      "bandwidth_usage": 198.0011,
+      "packet_loss": 1.8e-05,
+      "connection_count": 861.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 17.3,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11061.9515,
+      "packet_size": 9206.0,
+      "latency": 18.9206,
+      "bandwidth_usage": 814.6908,
+      "packet_loss": 4.1e-05,
+      "connection_count": 3735.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 29.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 26936.7461,
+      "packet_size": 929.53,
+      "latency": 0.8646,
+      "bandwidth_usage": 200.3089,
+      "packet_loss": 1e-05,
+      "connection_count": 927.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 19.03,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 87524.7544,
+      "packet_size": 64.07,
+      "latency": 86.9632,
+      "bandwidth_usage": 44.86,
+      "packet_loss": 0.000851,
+      "connection_count": 50554.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 48.97,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 92681.9802,
+      "packet_size": 64.05,
+      "latency": 76.9816,
+      "bandwidth_usage": 47.488,
+      "packet_loss": 0.00486,
+      "connection_count": 47322.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 45.55,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 12126.3105,
+      "packet_size": 8695.32,
+      "latency": 17.6152,
+      "bandwidth_usage": 843.5374,
+      "packet_loss": 0.000714,
+      "connection_count": 3538.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 36.33,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23403.8424,
+      "packet_size": 1130.39,
+      "latency": 0.8631,
+      "bandwidth_usage": 211.6444,
+      "packet_loss": 1.9e-05,
+      "connection_count": 832.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 17.69,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 84037.7886,
+      "packet_size": 69.76,
+      "latency": 77.0019,
+      "bandwidth_usage": 46.9014,
+      "packet_loss": 0.003845,
+      "connection_count": 46475.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 46.21,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11712.8877,
+      "packet_size": 9799.31,
+      "latency": 18.0952,
+      "bandwidth_usage": 918.2256,
+      "packet_loss": 0.000186,
+      "connection_count": 3819.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 31.75,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 78617.2505,
+      "packet_size": 68.44,
+      "latency": 86.5156,
+      "bandwidth_usage": 43.0424,
+      "packet_loss": 0.002258,
+      "connection_count": 53829.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 41.9,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 84287.7766,
+      "packet_size": 59.36,
+      "latency": 82.0071,
+      "bandwidth_usage": 40.0297,
+      "packet_loss": 0.001438,
+      "connection_count": 46979.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 43.46,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11478.6591,
+      "packet_size": 8727.21,
+      "latency": 16.8163,
+      "bandwidth_usage": 801.4132,
+      "packet_loss": 0.000877,
+      "connection_count": 3626.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 31.62,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25943.0525,
+      "packet_size": 930.75,
+      "latency": 0.8117,
+      "bandwidth_usage": 193.172,
+      "packet_loss": 1.4e-05,
+      "connection_count": 823.0,
+      "failed_authentication": 187.5,
+      "resource_usage": 17.09,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24562.8201,
+      "packet_size": 1036.38,
+      "latency": 0.8723,
+      "bandwidth_usage": 203.6508,
+      "packet_loss": 1.6e-05,
+      "connection_count": 951.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 18.85,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24460.5387,
+      "packet_size": 946.1,
+      "latency": 0.9127,
+      "bandwidth_usage": 185.137,
+      "packet_loss": 1.6e-05,
+      "connection_count": 823.0,
+      "failed_authentication": 125.0,
+      "resource_usage": 18.21,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 22983.4693,
+      "packet_size": 1083.23,
+      "latency": 0.9051,
+      "bandwidth_usage": 199.1709,
+      "packet_loss": 1.4e-05,
+      "connection_count": 843.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 16.66,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 81788.9886,
+      "packet_size": 71.19,
+      "latency": 90.4674,
+      "bandwidth_usage": 46.5819,
+      "packet_loss": 0.003714,
+      "connection_count": 49740.0,
+      "failed_authentication": 275.0,
+      "resource_usage": 44.8,
+      "cross_slice_access": 0.0
+    },
+    "label": 1,
+    "threat_type": "Spoofing",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 26569.529,
+      "packet_size": 886.75,
+      "latency": 0.8463,
+      "bandwidth_usage": 188.4848,
+      "packet_loss": 1.8e-05,
+      "connection_count": 907.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.51,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12490.4955,
+      "packet_size": 8203.04,
+      "latency": 17.7367,
+      "bandwidth_usage": 819.68,
+      "packet_loss": 0.000893,
+      "connection_count": 3942.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 68.98,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24300.2637,
+      "packet_size": 1097.1,
+      "latency": 0.824,
+      "bandwidth_usage": 213.2793,
+      "packet_loss": 1e-05,
+      "connection_count": 1019.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.34,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 23168.9024,
+      "packet_size": 1016.27,
+      "latency": 0.7868,
+      "bandwidth_usage": 188.3669,
+      "packet_loss": 1.8e-05,
+      "connection_count": 955.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.54,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24962.2168,
+      "packet_size": 1022.97,
+      "latency": 0.8807,
+      "bandwidth_usage": 204.2838,
+      "packet_loss": 1.5e-05,
+      "connection_count": 913.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.73,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11141.5903,
+      "packet_size": 9786.7,
+      "latency": 19.1664,
+      "bandwidth_usage": 872.3153,
+      "packet_loss": 0.000956,
+      "connection_count": 3514.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.88,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 10944.7121,
+      "packet_size": 8913.26,
+      "latency": 18.2786,
+      "bandwidth_usage": 780.4244,
+      "packet_loss": 0.000575,
+      "connection_count": 3863.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 66.41,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11664.2299,
+      "packet_size": 8927.1,
+      "latency": 18.2402,
+      "bandwidth_usage": 833.0217,
+      "packet_loss": 0.000699,
+      "connection_count": 3692.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 69.1,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 90032.2652,
+      "packet_size": 62.95,
+      "latency": 82.0082,
+      "bandwidth_usage": 45.337,
+      "packet_loss": 0.005222,
+      "connection_count": 51285.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 70.69,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25579.1909,
+      "packet_size": 960.31,
+      "latency": 0.918,
+      "bandwidth_usage": 196.5108,
+      "packet_loss": 1.5e-05,
+      "connection_count": 888.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 56.08,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24381.9609,
+      "packet_size": 993.27,
+      "latency": 0.7372,
+      "bandwidth_usage": 193.743,
+      "packet_loss": 1.8e-05,
+      "connection_count": 852.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.97,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 83810.2362,
+      "packet_size": 70.87,
+      "latency": 88.4862,
+      "bandwidth_usage": 47.5167,
+      "packet_loss": 8e-05,
+      "connection_count": 54721.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 84.19,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 20979.4598,
+      "packet_size": 1202.4,
+      "latency": 0.8284,
+      "bandwidth_usage": 201.8054,
+      "packet_loss": 1.7e-05,
+      "connection_count": 913.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 71.9,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11740.5681,
+      "packet_size": 8017.29,
+      "latency": 18.6515,
+      "bandwidth_usage": 753.0205,
+      "packet_loss": 0.000969,
+      "connection_count": 3273.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 69.12,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 23137.7674,
+      "packet_size": 1026.74,
+      "latency": 0.8065,
+      "bandwidth_usage": 190.0516,
+      "packet_loss": 2e-05,
+      "connection_count": 894.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 53.52,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 25931.9758,
+      "packet_size": 950.22,
+      "latency": 0.8983,
+      "bandwidth_usage": 197.1294,
+      "packet_loss": 1.6e-05,
+      "connection_count": 913.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.97,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24251.3046,
+      "packet_size": 1113.21,
+      "latency": 0.9141,
+      "bandwidth_usage": 215.9745,
+      "packet_loss": 1.8e-05,
+      "connection_count": 901.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.04,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24965.7824,
+      "packet_size": 990.18,
+      "latency": 0.9076,
+      "bandwidth_usage": 197.7656,
+      "packet_loss": 1.3e-05,
+      "connection_count": 944.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 56.08,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 27304.9023,
+      "packet_size": 831.97,
+      "latency": 0.909,
+      "bandwidth_usage": 181.735,
+      "packet_loss": 1.2e-05,
+      "connection_count": 870.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 74.11,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 80426.8954,
+      "packet_size": 69.36,
+      "latency": 94.582,
+      "bandwidth_usage": 44.6269,
+      "packet_loss": 0.002532,
+      "connection_count": 53001.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 67.23,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 96497.9701,
+      "packet_size": 59.42,
+      "latency": 89.3752,
+      "bandwidth_usage": 45.8687,
+      "packet_loss": 0.002003,
+      "connection_count": 53322.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.66,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25974.1203,
+      "packet_size": 907.29,
+      "latency": 0.7856,
+      "bandwidth_usage": 188.5289,
+      "packet_loss": 1.8e-05,
+      "connection_count": 913.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 43.41,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12021.5394,
+      "packet_size": 9318.12,
+      "latency": 19.6591,
+      "bandwidth_usage": 896.1453,
+      "packet_loss": 5.5e-05,
+      "connection_count": 3582.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.21,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 11539.0442,
+      "packet_size": 9200.79,
+      "latency": 20.1125,
+      "bandwidth_usage": 849.3462,
+      "packet_loss": 0.000766,
+      "connection_count": 3456.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 69.56,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25492.9755,
+      "packet_size": 964.28,
+      "latency": 0.9399,
+      "bandwidth_usage": 196.658,
+      "packet_loss": 1.5e-05,
+      "connection_count": 884.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 73.41,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 12887.366,
+      "packet_size": 8083.22,
+      "latency": 19.2528,
+      "bandwidth_usage": 833.3713,
+      "packet_loss": 0.000365,
+      "connection_count": 3421.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 69.16,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 24604.5593,
+      "packet_size": 1112.69,
+      "latency": 0.7992,
+      "bandwidth_usage": 219.0186,
+      "packet_loss": 1.5e-05,
+      "connection_count": 861.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 42.57,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24738.119,
+      "packet_size": 1017.44,
+      "latency": 0.8381,
+      "bandwidth_usage": 201.3559,
+      "packet_loss": 1.4e-05,
+      "connection_count": 928.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 53.79,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 88649.112,
+      "packet_size": 67.13,
+      "latency": 85.1994,
+      "bandwidth_usage": 47.6101,
+      "packet_loss": 0.004977,
+      "connection_count": 50176.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 75.08,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 85106.5226,
+      "packet_size": 64.54,
+      "latency": 88.9073,
+      "bandwidth_usage": 43.9451,
+      "packet_loss": 0.002815,
+      "connection_count": 48431.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 97.94,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 86405.3892,
+      "packet_size": 66.38,
+      "latency": 84.4812,
+      "bandwidth_usage": 45.8816,
+      "packet_loss": 0.001723,
+      "connection_count": 53048.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 69.95,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 82109.3849,
+      "packet_size": 66.13,
+      "latency": 80.0011,
+      "bandwidth_usage": 43.4407,
+      "packet_loss": 0.00156,
+      "connection_count": 47931.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 96.35,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 85760.9499,
+      "packet_size": 62.44,
+      "latency": 84.5065,
+      "bandwidth_usage": 42.8391,
+      "packet_loss": 0.001323,
+      "connection_count": 50646.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 67.25,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11375.1328,
+      "packet_size": 9773.1,
+      "latency": 17.7307,
+      "bandwidth_usage": 889.3626,
+      "packet_loss": 0.000779,
+      "connection_count": 3476.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 68.87,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25744.3994,
+      "packet_size": 1041.25,
+      "latency": 0.9018,
+      "bandwidth_usage": 214.4504,
+      "packet_loss": 1.5e-05,
+      "connection_count": 831.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 44.51,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 24736.431,
+      "packet_size": 1049.36,
+      "latency": 0.901,
+      "bandwidth_usage": 207.6591,
+      "packet_loss": 1.8e-05,
+      "connection_count": 945.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.96,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 23516.9233,
+      "packet_size": 1044.35,
+      "latency": 0.8326,
+      "bandwidth_usage": 196.48,
+      "packet_loss": 1e-05,
+      "connection_count": 856.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.64,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 11626.5667,
+      "packet_size": 8735.32,
+      "latency": 19.6008,
+      "bandwidth_usage": 812.4947,
+      "packet_loss": 0.000925,
+      "connection_count": 3651.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 85.74,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 25533.9088,
+      "packet_size": 971.68,
+      "latency": 0.8149,
+      "bandwidth_usage": 198.4856,
+      "packet_loss": 1.3e-05,
+      "connection_count": 917.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 55.67,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 86622.5559,
+      "packet_size": 61.61,
+      "latency": 84.7587,
+      "bandwidth_usage": 42.6966,
+      "packet_loss": 0.005608,
+      "connection_count": 46987.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 98.0,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 25261.1021,
+      "packet_size": 958.66,
+      "latency": 0.837,
+      "bandwidth_usage": 193.7354,
+      "packet_loss": 1.6e-05,
+      "connection_count": 884.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 54.4,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 26811.2768,
+      "packet_size": 923.99,
+      "latency": 0.8326,
+      "bandwidth_usage": 198.187,
+      "packet_loss": 1.3e-05,
+      "connection_count": 916.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 56.12,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 86441.1238,
+      "packet_size": 61.5,
+      "latency": 94.753,
+      "bandwidth_usage": 42.5314,
+      "packet_loss": 0.001854,
+      "connection_count": 49100.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 67.68,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 82302.7043,
+      "packet_size": 65.05,
+      "latency": 88.2998,
+      "bandwidth_usage": 42.8295,
+      "packet_loss": 0.003136,
+      "connection_count": 45381.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 98.0,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 11575.998,
+      "packet_size": 9267.25,
+      "latency": 17.3573,
+      "bandwidth_usage": 858.2211,
+      "packet_loss": 0.000176,
+      "connection_count": 3326.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 58.83,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "eMBB"
+  },
+  {
+    "features": {
+      "packet_rate": 26884.617,
+      "packet_size": 888.43,
+      "latency": 0.8119,
+      "bandwidth_usage": 191.0808,
+      "packet_loss": 1.1e-05,
+      "connection_count": 924.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.63,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  },
+  {
+    "features": {
+      "packet_rate": 86924.9082,
+      "packet_size": 65.37,
+      "latency": 79.847,
+      "bandwidth_usage": 45.4574,
+      "packet_loss": 0.005214,
+      "connection_count": 52025.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 72.67,
+      "cross_slice_access": 65.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 90498.6469,
+      "packet_size": 62.14,
+      "latency": 80.9601,
+      "bandwidth_usage": 44.9917,
+      "packet_loss": 0.002898,
+      "connection_count": 47467.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 96.78,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 88075.5114,
+      "packet_size": 64.47,
+      "latency": 86.1725,
+      "bandwidth_usage": 45.4235,
+      "packet_loss": 0.005911,
+      "connection_count": 49653.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 82.2,
+      "cross_slice_access": 97.5
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "mMTC"
+  },
+  {
+    "features": {
+      "packet_rate": 23609.3247,
+      "packet_size": 1082.45,
+      "latency": 0.8199,
+      "bandwidth_usage": 204.447,
+      "packet_loss": 1.1e-05,
+      "connection_count": 916.0,
+      "failed_authentication": 0.0,
+      "resource_usage": 73.44,
+      "cross_slice_access": 143.0
+    },
+    "label": 1,
+    "threat_type": "Network-Slice Isolation Breach",
+    "slice_type": "URLLC"
+  }
+]

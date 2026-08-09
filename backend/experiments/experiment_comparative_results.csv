@@ -1,0 +1,4 @@
+Strategy Name,Detection Rate (%),Mitigation Rate (%),Response Time (Steps),Average Latency (ms),CPU Consumption (%),False Positives,False Negatives,Security Score (0-100),Recovery Time (Steps)
+Static / Rule-Based Baseline,100.0,100.0,1.0,4.73,23.36,0,0,91.6,2.0
+Single-Agent RL (DQN),30.0,30.0,3.3,0.84,18.39,5,7,60.2,4.3
+Multi-Agent Cross-Layer RL (ACLS),100.0,100.0,1.0,356.84,98.22,50,0,90.0,1.5

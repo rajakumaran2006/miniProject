@@ -1,0 +1,182 @@
+{
+  "num_communication_rounds": 2,
+  "local_epochs_per_round": 2,
+  "participating_edge_nodes": [
+    {
+      "node_id": "edge-node-1",
+      "node_name": "Edge Node 1 (eMBB Video)",
+      "slice_type_focus": "eMBB",
+      "dataset_size": 400,
+      "dataset_path": "data/edge_node_1/local_dataset.csv"
+    },
+    {
+      "node_id": "edge-node-2",
+      "node_name": "Edge Node 2 (URLLC Transport)",
+      "slice_type_focus": "URLLC",
+      "dataset_size": 300,
+      "dataset_path": "data/edge_node_2/local_dataset.csv"
+    },
+    {
+      "node_id": "edge-node-3",
+      "node_name": "Edge Node 3 (mMTC IoT Mesh)",
+      "slice_type_focus": "mMTC",
+      "dataset_size": 500,
+      "dataset_path": "data/edge_node_3/local_dataset.csv"
+    }
+  ],
+  "final_global_model_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        600,
+        0
+      ],
+      [
+        0,
+        600
+      ]
+    ]
+  },
+  "privacy_proof": {
+    "round": 100,
+    "timestamp": "2026-08-09T04:38:48.367264+00:00",
+    "participating_nodes": [
+      "edge-node-1",
+      "edge-node-2",
+      "edge-node-3"
+    ],
+    "transmitted_data_type": "PyTorch State Dict Model Weights (W_k) Only",
+    "raw_feature_vectors_transmitted": 0,
+    "dataset_sizes": {
+      "edge-node-1": 400,
+      "edge-node-2": 300,
+      "edge-node-3": 500
+    },
+    "privacy_verification": "VERIFIED_SECURE - Zero raw edge telemetry data transmitted to central server."
+  },
+  "round_history": [
+    {
+      "round": 99,
+      "local_training_metrics": {
+        "edge-node-1": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "edge-node-2": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "edge-node-3": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "global_model_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+          [
+            600,
+            0
+          ],
+          [
+            0,
+            600
+          ]
+        ]
+      },
+      "total_samples_evaluated": 1200,
+      "privacy_proof": {
+        "round": 99,
+        "timestamp": "2026-08-09T04:38:48.363157+00:00",
+        "participating_nodes": [
+          "edge-node-1",
+          "edge-node-2",
+          "edge-node-3"
+        ],
+        "transmitted_data_type": "PyTorch State Dict Model Weights (W_k) Only",
+        "raw_feature_vectors_transmitted": 0,
+        "dataset_sizes": {
+          "edge-node-1": 400,
+          "edge-node-2": 300,
+          "edge-node-3": 500
+        },
+        "privacy_verification": "VERIFIED_SECURE - Zero raw edge telemetry data transmitted to central server."
+      }
+    },
+    {
+      "round": 100,
+      "local_training_metrics": {
+        "edge-node-1": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "edge-node-2": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "edge-node-3": {
+          "loss": 0.0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "global_model_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+          [
+            600,
+            0
+          ],
+          [
+            0,
+            600
+          ]
+        ]
+      },
+      "total_samples_evaluated": 1200,
+      "privacy_proof": {
+        "round": 100,
+        "timestamp": "2026-08-09T04:38:48.367264+00:00",
+        "participating_nodes": [
+          "edge-node-1",
+          "edge-node-2",
+          "edge-node-3"
+        ],
+        "transmitted_data_type": "PyTorch State Dict Model Weights (W_k) Only",
+        "raw_feature_vectors_transmitted": 0,
+        "dataset_sizes": {
+          "edge-node-1": 400,
+          "edge-node-2": 300,
+          "edge-node-3": 500
+        },
+        "privacy_verification": "VERIFIED_SECURE - Zero raw edge telemetry data transmitted to central server."
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Data Directory
+
+This directory is reserved for local datasets, telemetry logs, and synthetic network trace exports.
+File patterns match `*.csv`, `*.json` and are ignored in git by default.
