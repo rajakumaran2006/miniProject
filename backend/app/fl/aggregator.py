@@ -201,6 +201,62 @@ class FederatedAggregator:
                 logger.warning(f"Could not load global model '{target_path}': {e}")
         return False
 
+    def record_vnet_observation(
+        self, slice_obj: NetworkSlice, is_threat: bool, note: Optional[str] = None
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Extract feature vector from a live NetworkSlice state (which is synced with OVS)
+        and log it into the responsible Edge Node's local dataset.
+        """
+        node_mapping = {
+            SliceType.EMBB: "edge-node-1",
+            SliceType.URLLC: "edge-node-2",
+            SliceType.MMTC: "edge-node-3",
+        }
+        node_id = node_mapping.get(slice_obj.slice_type, "edge-node-1")
+        target_node = self.edge_nodes.get(node_id)
+        if not target_node:
+            return None
+
+        raw_features = FeatureExtractor.extract_features(slice_obj)
+        label = 1 if is_threat else 0
+        target_node.append_vnet_telemetry(raw_features, label, note)
+        return target_node.get_dataset_stats()
+
+    def ingest_live_vnet_state(self, slices_dict: Dict[str, NetworkSlice], active_attack: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        """
+        Ingest current telemetry snapshot from all active slices connected to the Virtual Network.
+        """
+        updated_nodes = []
+        is_attack_active = active_attack is not None
+        target_slice_id = active_attack.get("target_slice_id") if active_attack else None
+
+        for slice_id, s_obj in slices_dict.items():
+            is_threat = is_attack_active and (target_slice_id is None or target_slice_id == slice_id)
+            stats = self.record_vnet_observation(
+                s_obj,
+                is_threat=is_threat,
+                note=f"Live VNet OVS Capture (Attack={is_threat})" if is_threat else "Live VNet Normal Telemetry"
+            )
+            if stats:
+                updated_nodes.append(stats)
+        return updated_nodes
+
+    def get_vnet_dataset_stats(self) -> Dict[str, Any]:
+        """Return dataset telemetry statistics across all edge nodes."""
+        nodes_stats = [node.get_dataset_stats() for node in self.edge_nodes.values()]
+        total_samples = sum(n["total_samples"] for n in nodes_stats)
+        total_vnet = sum(n["vnet_captured_samples"] for n in nodes_stats)
+        vnet_pct = round((total_vnet / total_samples * 100.0), 1) if total_samples > 0 else 0.0
+
+        return {
+            "source_type": "Live Open vSwitch Overlay (172.28.0.0/16)",
+            "total_samples": total_samples,
+            "vnet_captured_samples": total_vnet,
+            "vnet_data_percentage": vnet_pct,
+            "edge_nodes": nodes_stats,
+        }
+
 
 # Global FederatedAggregator Singleton Instance
 fl_aggregator = FederatedAggregator()

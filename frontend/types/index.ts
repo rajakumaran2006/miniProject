@@ -229,3 +229,44 @@ export interface HealthCheckResponse {
   uptime_seconds: number;
   modules: Record<string, boolean>;
 }
+
+export type OVSBackendMode = 'DOCKER_OVS' | 'NATIVE_EMULATOR';
+export type OVSAttackType = 'DOS' | 'SPOOFING' | 'ISOLATION_BREACH';
+export type OVSMitigationAction = 'DROP' | 'RATE_LIMIT' | 'ISOLATE' | 'RESET';
+
+export interface OVSPort {
+  port_name: string;
+  port_number: number;
+  vlan_tag: number;
+  slice_id: string;
+  ip_address: string;
+  mac_address: string;
+  status: string;
+  rx_packets: number;
+  tx_packets: number;
+  rx_dropped: number;
+}
+
+export interface OpenFlowRule {
+  rule_id: string;
+  table: number;
+  priority: number;
+  match: string;
+  actions: string;
+  packet_count: number;
+  byte_count: number;
+  duration_sec: number;
+}
+
+export interface OVSBridgeStatus {
+  bridge_name: string;
+  backend_mode: OVSBackendMode;
+  is_active: boolean;
+  openflow_version: string;
+  ports: OVSPort[];
+  active_rules_count: number;
+  active_attack: Record<string, any> | null;
+  mitigation_active: boolean;
+  active_mitigation_rule: string | null;
+}
+

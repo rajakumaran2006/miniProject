@@ -11,11 +11,13 @@ from app.api.v1.endpoints import (
     orchestrator,
     websocket,
     experiments,
+    ovs,
 )
 
 api_router = APIRouter()
 api_router.include_router(health.router, tags=["Health Check"])
 api_router.include_router(slices.router, tags=["5G/6G Network Slicing Telemetry"])
+api_router.include_router(ovs.router, prefix="/ovs", tags=["Open vSwitch Overlay Virtual Network (OVN)"])
 api_router.include_router(simulation.router, prefix="/simulation", tags=["Simulation Control"])
 api_router.include_router(attacks.router, prefix="/attacks", tags=["Cybersecurity Threat Simulation"])
 api_router.include_router(detection.router, prefix="/detection", tags=["AI Anomaly Detection"])

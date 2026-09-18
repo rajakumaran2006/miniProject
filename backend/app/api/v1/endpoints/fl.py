@@ -8,6 +8,7 @@ from app.fl.aggregator import FederatedAggregator, DEFAULT_GLOBAL_MODEL_PATH, EX
 from app.fl.edge_node import PrivacyViolationError
 from app.fl.train import run_federated_learning_pipeline
 from app.simulation.simulator import simulator
+from app.vnet.ovs_manager import ovs_manager
 
 router = APIRouter()
 
@@ -94,3 +95,28 @@ def get_fl_status():
         ],
         "privacy_guarantee": "Strict Isolation - Only PyTorch state_dict parameters (W_k) transmitted over network.",
     }
+
+
+@router.get("/vnet-dataset-status", summary="Get Live VNet Dataset Contribution Status")
+def get_vnet_dataset_status():
+    """
+    Retrieve real-time telemetry statistics showing samples contributed by the Live Virtual Network (OVS).
+    """
+    return fl_aggregator.get_vnet_dataset_stats()
+
+
+@router.post("/ingest-vnet", summary="Ingest Live Virtual Network Telemetry to Edge Datasets")
+def ingest_live_vnet_traffic():
+    """
+    Captures the current live state of Open vSwitch virtual slices and records real telemetry
+    directly into each edge node's local dataset CSV.
+    """
+    active_atk = ovs_manager.get_status().active_attack
+    updated_nodes = fl_aggregator.ingest_live_vnet_state(simulator.state.slices, active_atk)
+    return {
+        "message": "Successfully ingested live Virtual Network telemetry into Edge Node datasets.",
+        "active_attack_captured": active_atk is not None,
+        "updated_edge_nodes": updated_nodes,
+        "overall_stats": fl_aggregator.get_vnet_dataset_stats(),
+    }
+

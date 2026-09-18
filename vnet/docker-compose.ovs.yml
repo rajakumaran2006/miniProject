@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  # Open vSwitch Core Virtual Switch / Router
+  ovs-switch:
+    image: socketplane/openvswitch:latest
+    container_name: ovs-switch
+    privileged: true
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    volumes:
+      - ./scripts:/scripts
+    networks:
+      ovs-mgmt:
+        ipv4_address: 172.28.0.2
+    command: >
+      sh -c "/usr/share/openvswitch/scripts/ovs-ctl start &&
+             /scripts/setup_ovs.sh &&
+             tail -f /var/log/openvswitch/ovs-vswitchd.log"
+
+  # 5G Slice 1: eMBB (Enhanced Mobile Broadband - Video & Heavy Data)
+  embb-node:
+    image: alpine:latest
+    container_name: embb-node
+    cap_add:
+      - NET_ADMIN
+    command: /bin/sh -c "apk add --no-cache iproute2 iperf3 iputils curl && tail -f /dev/null"
+    networks:
+      ovs-mgmt:
+        ipv4_address: 172.28.0.10
+
+  # 5G Slice 2: URLLC (Ultra-Reliable Low Latency Communication - Autonomous Transport / Industrial)
+  urllc-node:
+    image: alpine:latest
+    container_name: urllc-node
+    cap_add:
+      - NET_ADMIN
+    command: /bin/sh -c "apk add --no-cache iproute2 iperf3 iputils curl && tail -f /dev/null"
+    networks:
+      ovs-mgmt:
+        ipv4_address: 172.28.0.20
+
+  # 5G Slice 3: mMTC (Massive Machine-Type Communications - Smart IoT Mesh)
+  mmtc-node:
+    image: alpine:latest
+    container_name: mmtc-node
+    cap_add:
+      - NET_ADMIN
+    command: /bin/sh -c "apk add --no-cache iproute2 iperf3 iputils curl && tail -f /dev/null"
+    networks:
+      ovs-mgmt:
+        ipv4_address: 172.28.0.30
+
+  # Attacker Node (Equipped with DoS, Spoofing, and Scapy packet injection tools)
+  attacker-node:
+    image: alpine:latest
+    container_name: attacker-node
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ./scripts:/scripts
+    command: /bin/sh -c "apk add --no-cache iproute2 hping3 curl iputils python3 py3-pip && tail -f /dev/null"
+    networks:
+      ovs-mgmt:
+        ipv4_address: 172.28.0.99
+
+networks:
+  ovs-mgmt:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16

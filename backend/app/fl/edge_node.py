@@ -68,6 +68,8 @@ class EdgeNode:
 
         self.X_local: Optional[np.ndarray] = None
         self.y_local: Optional[np.ndarray] = None
+        self.vnet_captured_count: int = 0
+        self.last_vnet_sync: Optional[str] = None
 
         self._generate_isolated_local_dataset()
 
@@ -157,6 +159,52 @@ class EdgeNode:
                 writer.writerow(list(f_row) + [int(l_val)])
 
         logger.info(f"Generated isolated local dataset for '{self.node_name}' ({len(self.X_local)} samples) -> '{self.dataset_path}'")
+
+    def append_vnet_telemetry(self, raw_features: List[float], label: int, info_note: Optional[str] = None):
+        """
+        Append a real telemetry observation captured from the Virtual Network (OVS)
+        directly into this edge node's local CSV dataset.
+        """
+        from datetime import datetime, timezone
+        now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        self.last_vnet_sync = now_str
+        self.vnet_captured_count += 1
+
+        # Append to CSV on disk
+        with open(self.dataset_path, "a", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(list(raw_features) + [int(label)])
+
+        # Scale raw feature using current mean/std approximation
+        new_vec = np.array(raw_features, dtype=np.float32)
+        if self.X_local is not None and len(self.X_local) > 0:
+            mean = np.mean(self.X_local, axis=0)
+            std = np.std(self.X_local, axis=0) + 1e-6
+            norm_vec = (new_vec - mean) / std
+
+            self.X_local = np.vstack([self.X_local, norm_vec.reshape(1, -1)])
+            self.y_local = np.append(self.y_local, float(label))
+        else:
+            self.X_local = new_vec.reshape(1, -1)
+            self.y_local = np.array([float(label)], dtype=np.float32)
+
+        self.sample_count = len(self.X_local)
+        logger.info(
+            f"[{self.node_name}] Ingested VNet live packet trace (Label={label}, Total={self.sample_count}, VNetSamples={self.vnet_captured_count})"
+        )
+
+    def get_dataset_stats(self) -> Dict[str, Any]:
+        """Return metadata summary for this Edge Node's local dataset."""
+        return {
+            "node_id": self.node_id,
+            "node_name": self.node_name,
+            "slice_focus": self.slice_type_focus.value,
+            "total_samples": len(self.X_local) if self.X_local is not None else 0,
+            "vnet_captured_samples": self.vnet_captured_count,
+            "dataset_path": self.dataset_path,
+            "last_vnet_sync": self.last_vnet_sync,
+            "source_type": "Live Open vSwitch Overlay (172.28.0.0/16)" if self.vnet_captured_count > 0 else "Base Telemetry Seed",
+        }
 
     def get_raw_dataset_prohibited(self):
         """Strict privacy assertion blocking external raw data export."""
