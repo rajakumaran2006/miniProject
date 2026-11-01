@@ -42,7 +42,10 @@ import {
   AlertTriangle,
   Network,
   Sparkles,
+  Sun,
+  Moon,
 } from 'lucide-react';
+import { StatusBadge } from '@/components/ui/StatusBadge';
 
 const WS_URL = process.env.NEXT_PUBLIC_WS_URL || 'ws://127.0.0.1:8000/api/v1/ws/telemetry';
 
@@ -63,6 +66,15 @@ export default function SOCDashboardPage() {
   const [activeAttacks, setActiveAttacks] = useState<AttackEvent[]>([]);
   const [autoDefenseEnabled, setAutoDefenseEnabled] = useState<boolean>(true);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDarkMode]);
 
   const loadData = useCallback(async () => {
     setIsLoading(true);
@@ -184,8 +196,8 @@ export default function SOCDashboardPage() {
   const currentTabInfo = tabTitles[activeTab];
 
   return (
-    <div className="min-h-screen h-screen bg-[#edf1f7] p-2 sm:p-3 lg:p-4 overflow-hidden flex gap-3 font-sans text-slate-900">
-      {/* Floating Slim Navigation Rail (matching reference) */}
+    <div className="min-h-screen h-screen bg-[#EAEAEA] dark:bg-[#14161D] p-2 sm:p-3 lg:p-4 overflow-hidden flex gap-3 font-sans text-[#111111] dark:text-[#F3F4F6]">
+      {/* Floating Slim Navigation Rail */}
       <SOCSidebar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
@@ -199,21 +211,21 @@ export default function SOCDashboardPage() {
 
       {/* Main Content Viewport */}
       <div className="flex-1 flex flex-col h-full overflow-hidden">
-        {/* Top Floating Pill Header Bar (matching reference) */}
+        {/* Top Header Control Bar adhering to AGENTS.md Section 5 */}
         <header className="h-14 mb-3 flex items-center justify-between shrink-0 z-10 gap-3">
-          {/* Left Pill Capsule: Breadcrumbs / Fast-jump Navigation Pills */}
-          <div className="bg-white rounded-full px-3.5 py-1.5 border border-slate-200/80 shadow-[0_4px_20px_-2px_rgba(0,0,0,0.04)] flex items-center space-x-2.5">
+          {/* Left Capsule: Active Tab & Fast Jump Pills */}
+          <div className="bg-white dark:bg-[#1A1D26] rounded-2xl px-3.5 py-1.5 border border-[#EFEFEF] dark:border-[#2E3344] shadow-xs flex items-center space-x-2.5">
             {/* Mobile Menu Hamburger */}
             <button
               onClick={() => setIsMobileMenuOpen(true)}
-              className="lg:hidden p-1.5 rounded-full text-slate-500 hover:bg-slate-100"
+              className="lg:hidden p-1.5 rounded-xl text-[#6B7280] dark:text-[#9CA3AF] hover:bg-[#F5F5F7] dark:hover:bg-[#222632]"
               aria-label="Open navigation menu"
             >
               <Menu className="w-4 h-4" />
             </button>
 
-            {/* Current Active Tab Pill */}
-            <div className="flex items-center space-x-2 px-3 py-1 bg-slate-900 text-white rounded-full text-xs font-semibold shadow-sm">
+            {/* Current Active Tab Pill with Solid Dark Brand Background as per Section 4 & 5 */}
+            <div className="flex items-center space-x-2 px-3 py-1 bg-[#1A3C6F] text-white rounded-[10px] text-xs font-bold shadow-xs whitespace-nowrap">
               <span>{currentTabInfo.icon}</span>
               <span className="truncate max-w-[130px] sm:max-w-none">{currentTabInfo.title}</span>
             </div>
@@ -222,40 +234,40 @@ export default function SOCDashboardPage() {
             <div className="hidden md:flex items-center space-x-1 text-xs">
               <button
                 onClick={() => setActiveTab('overview')}
-                className={`px-3 py-1 rounded-full transition-all font-medium ${
+                className={`px-3 py-1 rounded-[10px] transition-all font-bold ${
                   activeTab === 'overview'
-                    ? 'bg-slate-100 text-slate-900 font-semibold'
-                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-[#1A3C6F] text-white shadow-xs'
+                    : 'text-[#6B7280] dark:text-[#9CA3AF] hover:text-[#111111] dark:hover:text-[#F3F4F6] hover:bg-[#F5F5F7] dark:hover:bg-[#222632]'
                 }`}
               >
                 Overview
               </button>
               <button
                 onClick={() => setActiveTab('connectivity')}
-                className={`px-3 py-1 rounded-full transition-all font-medium ${
+                className={`px-3 py-1 rounded-[10px] transition-all font-bold ${
                   activeTab === 'connectivity'
-                    ? 'bg-slate-100 text-slate-900 font-semibold'
-                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-[#1A3C6F] text-white shadow-xs'
+                    : 'text-[#6B7280] dark:text-[#9CA3AF] hover:text-[#111111] dark:hover:text-[#F3F4F6] hover:bg-[#F5F5F7] dark:hover:bg-[#222632]'
                 }`}
               >
                 Connectivity
               </button>
               <button
                 onClick={() => setActiveTab('ovs')}
-                className={`px-3 py-1 rounded-full transition-all font-medium ${
+                className={`px-3 py-1 rounded-[10px] transition-all font-bold ${
                   activeTab === 'ovs'
-                    ? 'bg-slate-100 text-slate-900 font-semibold'
-                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-[#1A3C6F] text-white shadow-xs'
+                    : 'text-[#6B7280] dark:text-[#9CA3AF] hover:text-[#111111] dark:hover:text-[#F3F4F6] hover:bg-[#F5F5F7] dark:hover:bg-[#222632]'
                 }`}
               >
                 OVS Virtual Net
               </button>
               <button
                 onClick={() => setActiveTab('threats')}
-                className={`px-3 py-1 rounded-full transition-all font-medium ${
+                className={`px-3 py-1 rounded-[10px] transition-all font-bold ${
                   activeTab === 'threats'
-                    ? 'bg-slate-100 text-slate-900 font-semibold'
-                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                    ? 'bg-[#1A3C6F] text-white shadow-xs'
+                    : 'text-[#6B7280] dark:text-[#9CA3AF] hover:text-[#111111] dark:hover:text-[#F3F4F6] hover:bg-[#F5F5F7] dark:hover:bg-[#222632]'
                 }`}
               >
                 Threats
@@ -263,55 +275,59 @@ export default function SOCDashboardPage() {
             </div>
           </div>
 
-          {/* Right Pill Capsule: Slice Chips / Avatars + Quick Metrics */}
-          <div className="bg-white rounded-full px-3.5 py-1.5 border border-slate-200/80 shadow-[0_4px_20px_-2px_rgba(0,0,0,0.04)] flex items-center space-x-2.5 text-xs">
-            {/* Slice Avatars (matching reference employee avatar stack) */}
-            <div className="hidden lg:flex items-center -space-x-1.5">
+          {/* Right Capsule: Quick Metrics, Status Badges & Dark Mode Toggle */}
+          <div className="bg-white dark:bg-[#1A1D26] rounded-2xl px-3.5 py-1.5 border border-[#EFEFEF] dark:border-[#2E3344] shadow-xs flex items-center space-x-2.5 text-xs">
+            {/* Slice Chips */}
+            <div className="hidden lg:flex items-center space-x-1">
               <span
                 onClick={() => setActiveTab('slices')}
                 title="eMBB Ultra-HD Video Slice"
-                className="w-7 h-7 rounded-full bg-blue-500 text-white font-bold text-[9px] flex items-center justify-center ring-2 ring-white cursor-pointer hover:scale-110 transition-transform shadow-sm"
+                className="w-7 h-7 rounded-[10px] bg-[#1A3C6F] text-white font-bold text-[9px] flex items-center justify-center cursor-pointer hover:bg-[#179F99] transition-colors shadow-2xs"
               >
                 MBB
               </span>
               <span
                 onClick={() => setActiveTab('slices')}
                 title="URLLC Low-Latency Autonomous Slice"
-                className="w-7 h-7 rounded-full bg-cyan-500 text-white font-bold text-[9px] flex items-center justify-center ring-2 ring-white cursor-pointer hover:scale-110 transition-transform shadow-sm"
+                className="w-7 h-7 rounded-[10px] bg-[#179F99] text-white font-bold text-[9px] flex items-center justify-center cursor-pointer hover:bg-[#148f8a] transition-colors shadow-2xs"
               >
                 URL
               </span>
               <span
                 onClick={() => setActiveTab('slices')}
                 title="mMTC Smart IoT Sensor Slice"
-                className="w-7 h-7 rounded-full bg-purple-500 text-white font-bold text-[9px] flex items-center justify-center ring-2 ring-white cursor-pointer hover:scale-110 transition-transform shadow-sm"
+                className="w-7 h-7 rounded-[10px] bg-slate-700 text-white font-bold text-[9px] flex items-center justify-center cursor-pointer hover:bg-slate-800 transition-colors shadow-2xs"
               >
                 MTC
               </span>
-              <span className="w-7 h-7 rounded-full bg-slate-100 text-slate-600 font-bold text-[9px] flex items-center justify-center ring-2 ring-white">
-                3S
-              </span>
             </div>
 
-            {/* Quick Threat Pill */}
-            <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-slate-100 border border-slate-200/80 font-mono text-[11px]">
-              <span className="text-slate-500">Threats:</span>
-              <span className={`font-bold ${activeAttacks.length > 0 ? 'text-rose-600' : 'text-slate-800'}`}>
-                {activeAttacks.length}
-              </span>
-            </div>
+            {/* Quick Threat Status Badge (Solid Dark Background per Section 4/13) */}
+            <StatusBadge variant={activeAttacks.length > 0 ? 'critical' : 'active'} dot>
+              {activeAttacks.length} Threats
+            </StatusBadge>
 
-            {/* Latency Pill */}
-            <div className="hidden sm:flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-slate-100 border border-slate-200/80 font-mono text-[11px]">
-              <span className="text-slate-500">Latency:</span>
-              <span className="font-bold text-blue-600">{latencyMs}ms</span>
+            {/* Latency Badge */}
+            <div className="hidden sm:inline-flex">
+              <StatusBadge variant="teal">
+                {latencyMs}ms
+              </StatusBadge>
             </div>
 
             {/* Live Stream Pulse Badge */}
-            <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 font-semibold text-[11px]">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <StatusBadge variant="active" dot>
               <span className="hidden sm:inline">Live Stream</span>
-            </div>
+            </StatusBadge>
+
+            {/* Dark Mode Toggle Button */}
+            <button
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+              className="p-1.5 rounded-xl border border-[#EFEFEF] dark:border-[#2E3344] bg-[#F5F5F7] dark:bg-[#222632] text-[#111111] dark:text-[#F3F4F6] hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer"
+              aria-label="Toggle theme mode"
+            >
+              {isDarkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-[#1A3C6F]" />}
+            </button>
           </div>
         </header>
 
@@ -408,9 +424,9 @@ export default function SOCDashboardPage() {
             </div>
           )}
 
-          <footer className="border-t border-slate-200/80 py-4 text-center text-xs text-slate-500">
+          <footer className="border-t border-[#EFEFEF] dark:border-[#2E3344] py-4 text-center text-xs text-[#6B7280] dark:text-[#9CA3AF]">
             <p>5G/6G Security Operations Center (SOC) Framework &copy; {new Date().getFullYear()}</p>
-            <p className="mt-0.5 text-[11px] text-slate-400">
+            <p className="mt-0.5 text-[11px] text-[#6B7280]/70 dark:text-[#9CA3AF]/70">
               FastAPI Telemetry &bull; Next.js 14 Sidebar UI &bull; Coordinated MARL + FedAvg
             </p>
           </footer>

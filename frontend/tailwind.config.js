@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,61 +8,71 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', '-apple-system', 'sans-serif'],
-        mono: ['var(--font-mono)', 'SFMono-Regular', 'Menlo', 'monospace'],
+        sans: ['var(--font-sans)', 'Plus Jakarta Sans', 'system-ui', '-apple-system', 'sans-serif'],
+        mono: ['var(--font-mono)', 'JetBrains Mono', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
       colors: {
-        // 3-Color Strict Palette: Primary, Secondary, Tertiary
+        // VenusSMS Brand Colors strictly as defined in AGENTS.md
+        brand: {
+          primary: '#1A3C6F',
+          light: '#179F99',
+          hover: '#148f8a',
+          dark: '#153260',
+          surface: '#F5F5F7',
+          border: '#EFEFEF',
+          DEFAULT: '#1A3C6F',
+        },
+        theme: {
+          page: 'var(--bg-page)',
+          surface: 'var(--bg-surface)',
+          card: 'var(--bg-card)',
+          subtle: 'var(--bg-subtle)',
+          main: 'var(--text-main)',
+          muted: 'var(--text-muted)',
+          border: 'var(--border-main)',
+        },
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',
           200: '#bfdbfe',
           300: '#93c5fd',
           400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb', // Core Primary: Cobalt Blue
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
-          DEFAULT: '#2563eb',
+          500: '#179F99',
+          600: '#1A3C6F',
+          700: '#153260',
+          800: '#11284d',
+          900: '#0c1d38',
+          DEFAULT: '#1A3C6F',
         },
         secondary: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569', // Core Secondary: Slate Steel Neutral
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
-          DEFAULT: '#475569',
+          50: '#F5F5F7',
+          100: '#EFEFEF',
+          200: '#E5E7EB',
+          300: '#D1D5DB',
+          400: '#9CA3AF',
+          500: '#6B7280',
+          600: '#4B5563',
+          700: '#374151',
+          800: '#1F2937',
+          900: '#111111',
+          DEFAULT: '#6B7280',
         },
         tertiary: {
-          50: '#ecfeff',
-          100: '#cffafe',
-          200: '#a5f3fc',
-          300: '#67e8f9',
-          400: '#22d3ee',
-          500: '#06b6d4',
-          600: '#0891b2', // Core Tertiary: High-Tech Cyber Cyan/Teal
-          700: '#0e7490',
-          800: '#155e75',
-          900: '#164e63',
-          DEFAULT: '#0891b2',
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#179F99',
+          600: '#148f8a',
+          700: '#0f766e',
+          800: '#115e59',
+          900: '#134e4a',
+          DEFAULT: '#179F99',
         },
-        // Legacy network aliases mapped to the 3-color palette
-        network: {
-          dark: '#0f172a', // secondary-900
-          card: '#ffffff', // clean white
-          border: '#e2e8f0', // secondary-200
-          cyan: '#0891b2', // tertiary-600
-          blue: '#2563eb', // primary-600
-          purple: '#1d4ed8', // primary-700
-          emerald: '#0e7490', // tertiary-700
-          rose: '#334155', // secondary-700
-        },
+      },
+      borderRadius: {
+        pill: '10px',
       },
     },
   },

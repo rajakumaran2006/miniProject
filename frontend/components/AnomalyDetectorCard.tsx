@@ -3,7 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import { DetectionResult, ModelMetrics } from '@/types';
 import { fetchModelMetrics, predictAnomaly, trainDetector } from '@/lib/api';
-import { Cpu, RefreshCw, BarChart3, Sparkles, Binary } from 'lucide-react';
+import { Cpu, RefreshCw, BarChart3, Binary } from 'lucide-react';
+import { Button } from '@/components/ui/Button';
+import { StatusBadge } from '@/components/ui/StatusBadge';
 
 export const AnomalyDetectorCard: React.FC = () => {
   const [metrics, setMetrics] = useState<ModelMetrics | null>(null);
@@ -39,75 +41,80 @@ export const AnomalyDetectorCard: React.FC = () => {
   };
 
   return (
-    <div className="bg-white border border-secondary-200 rounded-2xl p-6 shadow-sm space-y-6">
+    <div className="bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-2xl p-6 shadow-xs space-y-6">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="flex items-center space-x-3">
-          <div className="p-3 bg-primary-50 rounded-xl text-primary-600 border border-primary-200">
+          <div className="p-3 bg-[#1A3C6F] rounded-xl text-white shadow-xs">
             <Cpu className="w-6 h-6" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <h2 className="text-xl font-bold text-secondary-900">AI Anomaly Detection Engine</h2>
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-primary-50 text-primary-700 border border-primary-200">
+              <h2 className="text-xl font-bold text-[#111111] dark:text-[#F3F4F6] tracking-tight">
+                AI Anomaly Detection Engine
+              </h2>
+              <StatusBadge variant="brand">
                 Scikit-Learn Isolation Forest
-              </span>
+              </StatusBadge>
             </div>
-            <p className="text-xs text-secondary-500">Consumes 9-element telemetry vector & evaluates supervised classification performance</p>
+            <p className="text-xs text-[#6B7280] dark:text-[#9CA3AF]">
+              Consumes 9-element telemetry vector & evaluates supervised classification performance
+            </p>
           </div>
         </div>
 
         <div className="flex items-center space-x-3">
-          <button
+          <Button
+            variant="primary"
+            size="sm"
             onClick={handleTrain}
             disabled={isTraining}
-            className="flex items-center space-x-2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-xs font-bold rounded-xl shadow-sm transition-all disabled:opacity-50"
+            icon={<RefreshCw className={`w-3.5 h-3.5 ${isTraining ? 'animate-spin' : ''}`} />}
           >
-            <RefreshCw className={`w-3.5 h-3.5 ${isTraining ? 'animate-spin' : ''}`} />
-            <span>{isTraining ? 'Training Model...' : 'Train ML Model'}</span>
-          </button>
+            {isTraining ? 'Training Model...' : 'Train ML Model'}
+          </Button>
         </div>
       </div>
 
       {/* Model Performance Metrics Dashboard */}
       {metrics && (
-        <div className="p-5 bg-secondary-50 border border-secondary-200 rounded-xl space-y-4">
-          <div className="flex items-center justify-between border-b border-secondary-200 pb-3">
+        <div className="p-5 bg-[#F5F5F7] dark:bg-[#222632] border border-[#EFEFEF] dark:border-[#2E3344] rounded-xl space-y-4">
+          <div className="flex items-center justify-between border-b border-[#EFEFEF] dark:border-[#2E3344] pb-3 flex-wrap gap-2">
             <div className="flex items-center space-x-2">
-              <BarChart3 className="w-4 h-4 text-primary-600" />
-              <h3 className="text-xs font-bold text-secondary-700 uppercase tracking-wider">
+              <BarChart3 className="w-4 h-4 text-[#179F99]" />
+              <h3 className="text-xs font-bold text-[#111111] dark:text-[#F3F4F6] uppercase tracking-wider">
                 Model Performance & Validation Metrics
               </h3>
             </div>
-            <span className="text-[11px] font-mono text-secondary-500">
+            <span className="text-[11px] font-mono text-[#6B7280] dark:text-[#9CA3AF]">
               Dataset Size: {metrics.num_samples.toLocaleString()} samples
             </span>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="p-3 bg-white border border-secondary-200 rounded-lg shadow-sm">
-              <span className="text-xs text-secondary-500 block mb-1">Accuracy</span>
-              <span className="text-lg font-extrabold text-primary-600 font-mono">
+            <div className="p-3.5 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-xl shadow-xs">
+              <span className="text-xs text-[#6B7280] dark:text-[#9CA3AF] block mb-1">Accuracy</span>
+              <span className="text-lg font-extrabold text-emerald-600 dark:text-emerald-400 font-mono">
                 {(metrics.accuracy * 100).toFixed(1)}%
               </span>
             </div>
 
-            <div className="p-3 bg-white border border-secondary-200 rounded-lg shadow-sm">
-              <span className="text-xs text-secondary-500 block mb-1">Precision</span>
-              <span className="text-lg font-extrabold text-tertiary-700 font-mono">
+            <div className="p-3.5 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-xl shadow-xs">
+              <span className="text-xs text-[#6B7280] dark:text-[#9CA3AF] block mb-1">Precision</span>
+              <span className="text-lg font-extrabold text-[#179F99] font-mono">
                 {(metrics.precision * 100).toFixed(1)}%
               </span>
             </div>
 
-            <div className="p-3 bg-white border border-secondary-200 rounded-lg shadow-sm">
-              <span className="text-xs text-secondary-500 block mb-1">Recall</span>
-              <span className="text-lg font-extrabold text-primary-700 font-mono">
+            <div className="p-3.5 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-xl shadow-xs">
+              <span className="text-xs text-[#6B7280] dark:text-[#9CA3AF] block mb-1">Recall</span>
+              <span className="text-lg font-extrabold text-[#1A3C6F] dark:text-[#179F99] font-mono">
                 {(metrics.recall * 100).toFixed(1)}%
               </span>
             </div>
 
-            <div className="p-3 bg-white border border-secondary-200 rounded-lg shadow-sm">
-              <span className="text-xs text-secondary-500 block mb-1">F1 Score</span>
-              <span className="text-lg font-extrabold text-secondary-900 font-mono">
+            <div className="p-3.5 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-xl shadow-xs">
+              <span className="text-xs text-[#6B7280] dark:text-[#9CA3AF] block mb-1">F1 Score</span>
+              <span className="text-lg font-extrabold text-[#111111] dark:text-[#F3F4F6] font-mono">
                 {(metrics.f1_score * 100).toFixed(1)}%
               </span>
             </div>
@@ -115,23 +122,23 @@ export const AnomalyDetectorCard: React.FC = () => {
 
           {/* Confusion Matrix Visualization */}
           <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
-            <div className="flex items-center space-x-2 text-secondary-700">
-              <Binary className="w-4 h-4 text-primary-600" />
-              <span className="font-semibold">Confusion Matrix [ [TN, FP], [FN, TP] ]:</span>
+            <div className="flex items-center space-x-2 text-[#111111] dark:text-[#F3F4F6]">
+              <Binary className="w-4 h-4 text-[#179F99]" />
+              <span className="font-bold">Confusion Matrix [ [TN, FP], [FN, TP] ]:</span>
             </div>
 
-            <div className="flex items-center space-x-2 font-mono">
-              <span className="px-2.5 py-1 bg-white border border-secondary-200 rounded text-secondary-700">
-                TN: <strong className="text-primary-700">{metrics.confusion_matrix[0]?.[0]}</strong>
+            <div className="flex items-center space-x-2 font-mono flex-wrap gap-y-1">
+              <span className="px-2.5 py-1 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-[10px] text-[#6B7280] dark:text-[#9CA3AF]">
+                TN: <strong className="text-[#1A3C6F] dark:text-[#179F99]">{metrics.confusion_matrix[0]?.[0]}</strong>
               </span>
-              <span className="px-2.5 py-1 bg-white border border-secondary-200 rounded text-secondary-700">
-                FP: <strong className="text-secondary-900">{metrics.confusion_matrix[0]?.[1]}</strong>
+              <span className="px-2.5 py-1 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-[10px] text-[#6B7280] dark:text-[#9CA3AF]">
+                FP: <strong className="text-[#111111] dark:text-[#F3F4F6]">{metrics.confusion_matrix[0]?.[1]}</strong>
               </span>
-              <span className="px-2.5 py-1 bg-white border border-secondary-200 rounded text-secondary-700">
-                FN: <strong className="text-secondary-900">{metrics.confusion_matrix[1]?.[0]}</strong>
+              <span className="px-2.5 py-1 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-[10px] text-[#6B7280] dark:text-[#9CA3AF]">
+                FN: <strong className="text-[#111111] dark:text-[#F3F4F6]">{metrics.confusion_matrix[1]?.[0]}</strong>
               </span>
-              <span className="px-2.5 py-1 bg-white border border-secondary-200 rounded text-secondary-700">
-                TP: <strong className="text-primary-600">{metrics.confusion_matrix[1]?.[1]}</strong>
+              <span className="px-2.5 py-1 bg-white dark:bg-[#1A1D26] border border-[#EFEFEF] dark:border-[#2E3344] rounded-[10px] text-[#6B7280] dark:text-[#9CA3AF]">
+                TP: <strong className="text-emerald-600 dark:text-emerald-400">{metrics.confusion_matrix[1]?.[1]}</strong>
               </span>
             </div>
           </div>
@@ -140,7 +147,7 @@ export const AnomalyDetectorCard: React.FC = () => {
 
       {/* Real-time Detection Prediction Output Cards */}
       <div className="space-y-3">
-        <h3 className="text-xs font-bold text-secondary-700 uppercase tracking-wider">
+        <h3 className="text-xs font-bold text-[#6B7280] dark:text-[#9CA3AF] uppercase tracking-wider">
           Real-Time Anomaly Prediction Results ({results.length} Slices Evaluated)
         </h3>
 
@@ -150,53 +157,54 @@ export const AnomalyDetectorCard: React.FC = () => {
             return (
               <div
                 key={res.event_id + res.affected_slice}
-                className={`p-4 rounded-xl border space-y-3 transition-all ${
+                className={`p-5 rounded-xl border space-y-3 transition-all ${
                   isAnomaly
-                    ? 'bg-secondary-100 border-secondary-400 shadow-sm'
-                    : 'bg-secondary-50 border-secondary-200'
+                    ? 'bg-rose-50/50 dark:bg-rose-950/20 border-rose-400 ring-1 ring-rose-500 shadow-xs'
+                    : 'bg-[#F5F5F7] dark:bg-[#222632] border-[#EFEFEF] dark:border-[#2E3344]'
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-mono font-bold text-primary-700">{res.affected_slice}</span>
-                  <span
-                    className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
-                      isAnomaly
-                        ? 'bg-secondary-900 text-white border-secondary-800'
-                        : 'bg-primary-50 text-primary-700 border-primary-200'
-                    }`}
+                  <span className="text-xs font-mono font-bold text-[#1A3C6F] dark:text-[#179F99]">
+                    {res.affected_slice}
+                  </span>
+                  <StatusBadge
+                    variant={isAnomaly ? 'critical' : 'active'}
+                    dot
                   >
                     {res.predicted_status}
-                  </span>
+                  </StatusBadge>
                 </div>
 
                 {/* Risk Bar */}
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs">
-                    <span className="text-secondary-500">Anomaly Risk Score:</span>
-                    <span className={`font-mono font-bold ${isAnomaly ? 'text-secondary-900' : 'text-primary-600'}`}>
+                    <span className="text-[#6B7280] dark:text-[#9CA3AF]">Anomaly Risk Score:</span>
+                    <span className={`font-mono font-bold ${isAnomaly ? 'text-rose-600 dark:text-rose-400' : 'text-emerald-600 dark:text-emerald-400'}`}>
                       {(res.anomaly_score * 100).toFixed(1)}%
                     </span>
                   </div>
-                  <div className="w-full h-2 bg-secondary-200 rounded-full overflow-hidden border border-secondary-300">
+                  <div className="w-full h-2 bg-[#EFEFEF] dark:bg-slate-700 rounded-full overflow-hidden">
                     <div
                       className={`h-full transition-all duration-500 ${
                         res.anomaly_score > 0.4
-                          ? 'bg-secondary-800'
-                          : 'bg-primary-600'
+                          ? 'bg-rose-600'
+                          : 'bg-[#179F99]'
                       }`}
                       style={{ width: `${Math.min(100, Math.max(5, res.anomaly_score * 100))}%` }}
                     />
                   </div>
                 </div>
 
-                <div className="pt-2 border-t border-secondary-200 flex items-center justify-between text-xs text-secondary-500 font-mono">
-                  <span>Confidence:</span>
-                  <span className="font-semibold text-secondary-800">{(res.confidence_score * 100).toFixed(1)}%</span>
+                <div className="pt-2 border-t border-[#EFEFEF] dark:border-[#2E3344] flex items-center justify-between text-xs text-[#6B7280] dark:text-[#9CA3AF] font-mono">
+                  <span className="font-sans">Confidence:</span>
+                  <span className="font-bold text-[#111111] dark:text-[#F3F4F6]">
+                    {(res.confidence_score * 100).toFixed(1)}%
+                  </span>
                 </div>
 
-                <div className="flex items-center justify-between text-xs text-secondary-500 font-mono">
-                  <span>Category:</span>
-                  <span className="font-semibold text-primary-700">{res.threat_category}</span>
+                <div className="flex items-center justify-between text-xs text-[#6B7280] dark:text-[#9CA3AF] font-mono">
+                  <span className="font-sans">Category:</span>
+                  <span className="font-bold text-[#1A3C6F] dark:text-[#179F99]">{res.threat_category}</span>
                 </div>
               </div>
             );
